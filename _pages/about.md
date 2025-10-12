@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-HHello! My name is Junwei Huang—a Postdoctoral Fellow at the University of Macau (advised by [Prof. Rui P. Martins](https://ime.um.edu.mo/people/rmartins/) and [Prof. Sai-Weng Sin](https://ime.um.edu.mo/people/terryssw/); collaborating with [Prof. Yan Lu]（https://web.ee.tsinghua.edu.cn/luyan/en/index.htm）, Tsinghua University). I’m currently a Visiting Postdoctoral Researcher in the Pilawa Power Electronics Group (EECS, UC Berkeley), focusing on power-management ICs with high density, high efficiency, and fast transient response. Thanks for visiting! <br>You can find my [CV](https://jwhuang-power.github.io/assets/CV_Junwei_Huang.pdf) here.
+HHello! My name is Junwei Huang—a Postdoctoral Fellow at the University of Macau (advised by [Prof. Rui P. Martins](https://ime.um.edu.mo/people/rmartins/) and [Prof. Sai-Weng Sin](https://ime.um.edu.mo/people/terryssw/); collaborating with [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm）, Tsinghua University. I’m currently a Visiting Postdoctoral Researcher in the Pilawa Power Electronics Group (EECS, UC Berkeley), focusing on power-management ICs with high density, high efficiency, and fast transient response. Thanks for visiting! <br>You can find my [CV](https://jwhuang-power.github.io/assets/CV_Junwei_Huang.pdf) here.
 
 A data-driven personal website
 ======
