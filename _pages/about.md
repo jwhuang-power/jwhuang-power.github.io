@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a visiting postdoctoral researcher in the Pilawa Power Electronics Research Group at the University of California, Berkeley. I received my B.Eng. in Microelectronics from the University of Electronic Science and Technology of China (UESTC), Chengdu, in 2018, and my Ph.D. from the State Key Laboratory of Analog and Mixed-Signal VLSI (AMSV), University of Macau, in 2024. I am currently a postdoctoral researcher at the University of Macau. My research interests are in power-management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, and fast transient response. <br>You can find my [CV](https://jwhuang.github.io/assets/CV_Junwei_Huang.pdf) here.
+I am a visiting postdoctoral researcher in the Pilawa Power Electronics Research Group at the University of California, Berkeley. I received my B.Eng. in Microelectronics from the University of Electronic Science and Technology of China (UESTC), Chengdu, in 2018, and my Ph.D. from the State Key Laboratory of Analog and Mixed-Signal VLSI (AMSV), University of Macau, in 2024. I am currently a postdoctoral researcher at the University of Macau. My research interests are in power-management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, and fast transient response. <br>You can find my [CV](https://github.com/jwhuang-power/jwhuang.github.io/blob/master/assets/CV_Junwei_Huang.pdf) here.
 
 A data-driven personal website
 ======
