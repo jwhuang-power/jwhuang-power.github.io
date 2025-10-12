@@ -9,6 +9,7 @@ redirect_from:
 
 Hello! My name is Junwei Huang—a Postdoctoral Fellow at the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://ime.um.edu.mo/people/rmartins/), collaborating with [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (Tsinghua University). I’m currently a visiting postdoctoral researcher in  in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://www2.eecs.berkeley.edu/Faculty/Homepages/pilawa.html). I focus on power-management ICs and power electronics with high current density, high efficiency, and fast transient response. Thanks for visiting! <br>You can find my [CV](https://jwhuang-power.github.io/assets/CV_Junwei_Huang.pdf) here.
 
+
 Education
 ======
 ### Education
@@ -18,6 +19,15 @@ Education
   Advisors: [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) and [Prof. Chi-Seng Lam](https://ime.um.edu.mo/people/cslam/)
 
 - **B.Eng. in Microelectronics**, [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/) · 2014–2018
+- 
+
+### Academic Appointments
+
+- **Visiting Postdoctoral Researcher**, Pilawa Power Electronics Group, [EECS, University of California, Berkeley](https://eecs.berkeley.edu) · 2025.09–present  
+  Advisor: Prof. Robert Pilawa-Podgurski
+
+- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI (AMSV), [University of Macau](https://www.um.edu.mo/) · 2024.07–present  
+  Advisors: Prof. Rui P. Martins, Prof. Sai-Weng Sin · Collaboration: Prof. Yan Lu (Tsinghua University)
 
 
 Getting started
