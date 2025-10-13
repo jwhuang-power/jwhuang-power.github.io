@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-> I work on fast-transient PMICs, high-density hybrid converters, and robust current balancing across concurrent multi-inductor paths.
+> My research interests are in power management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, and fast transient response.
 
 ## 1) Fast-Transient Dual-Loop Hybrids (single-chip & multi-chip)
 We address transient droop/overshoot by combining a **fast VOUT loop** with a **slow VAUX loop** that specifies the current allocation among **non-uniform (large/small) inductors**.
