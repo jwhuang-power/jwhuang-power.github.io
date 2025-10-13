@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 toc: true
 toc_label: "On this page"
+show_date: false
 ---
 
 > A concise list of my publications. See also my [Google Scholar](https://scholar.google.com/citations?user=NETRgSoAAAAJ).
