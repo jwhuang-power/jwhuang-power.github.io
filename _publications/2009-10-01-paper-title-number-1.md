@@ -1,14 +1,71 @@
 ---
-title: "Paper Title Number 1"
-collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+title: "Publications"
+permalink: /publications/
+layout: single
+author_profile: true
+toc: true
+toc_label: "On this page"
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+> A concise list of my publications. See also my [Google Scholar](https://scholar.google.com/citations?user=NETRgSoAAAAJ).
+
+## First-author
+
+### Journal Articles
+- **A Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid DC–DC Converter**. *IEEE Journal of Solid-State Circuits (JSSC)*, 2024.  
+  J. Huang, Z. Tong, C.-S. Lam, X. Mao, R. P. Martins, Y. Lu. [PDF](/files/jssc24_inductor_first.pdf) · [Slides](/files/jssc24_inductor_first_slides.pdf)
+
+- **A Symmetrical Double Step-Down Converter with Extended Voltage Conversion Ratio**. *IEEE Trans. Circuits Syst. I (TCAS-I)*, 2022.  
+  J. Huang, C.-S. Lam, Y. Lu, R. P. Martins. [PDF](/files/tcasi22_sdsd.pdf)
+
+### Conference Papers
+- **A 20 MHz–1 MHz Dual-Loop Non-Uniform-Multi-Inductor Hybrid DC–DC Converter with Specified Inductor Current Allocation and Fast Transient Response**. *IEEE ISSCC*, Feb. 2025. **Highlight Paper.**  
+  J. Huang, X. Mao, Z. Tong, Z. Yu, W. Yang, C.-S. Lam, R. P. Martins, Y. Lu. [PDF](/files/isscc25_llsc.pdf) · [Slides](/files/isscc25_llsc_slides.pdf)
+
+- **A Fast–Slow Two-Module DC–DC Solution with Transient and Efficiency Improvements for 2.5D/3D Integration**. *IEEE CICC*, Apr. 2024.  
+  J. Huang, Z. Tong, X. Mao, C.-S. Lam, R. P. Martins, Y. Lu. [PDF](/files/cicc24_two_module.pdf) · [Slides](/files/cicc24_two_module_slides.pdf)
+
+- **A 5 V-to-0.5 V Inductor-First Inductor-on-Ground Switched-Capacitor Multi-Path Hybrid DC–DC Converter**. *IEEE CICC*, Apr. 2023.  
+  J. Huang, Z. Tong, Y. Lu, C.-S. Lam, R. P. Martins. [PDF](/files/cicc23_iog.pdf) · [Slides](/files/cicc23_iog_slides.pdf)
+
+---
+
+## Co-author
+
+### Journal Articles
+- **A Double-Pulse Overlapping Laser Diode Driver with Minimum 100-ps Pulse for LiDAR Systems**. *IEEE JSSC*, 2024.  
+  Z. Tong, J. Huang, X. Mao, R. P. Martins, Y. Lu. [PDF](/files/jssc24_lidar_driver.pdf)
+
+- **A Bidirectional USB Power-Delivery Voltage-Regulating Cable**. *IEEE JSSC*, 2024.  
+  Z. Tong, J. Huang, X. Mao, R. P. Martins, Y. Lu. [PDF](/files/jssc24_vr_cable.pdf)
+
+- **An Overview of Hybrid DC–DC Converters: From Seeds to Leaves**. *IEEE OJSSC*, 2024.  
+  Y. Lu, J. Huang, Z. Tong, T. Hu, W.-L. Zeng, M. Huang, X. Mao, G. Cai. [PDF](/files/ojssc24_overview.pdf)
+
+- **Favorable Basic Cells for Hybrid DC–DC Converters**. *Journal of Semiconductors (JOS)*, 2023.  
+  Y. Lu, G. Cai, J. Huang. [PDF](/files/jos23_favorable_cells.pdf)
+
+### Conference Papers
+- **HOOP: A Scalable Hybrid DC–DC Converter Ring for High-Performance Computing**. *IEEE ISSCC*, Feb. 2025.  
+  Z. Tong, Z. Yu, J. Huang, X. Mao, B. Wicht, R. P. Martins, Y. Lu. [PDF](/files/isscc25_hoop.pdf)
+
+- **A Bi-Directional Dual-Path Boost–48 V–Buck Hybrid Converter for High-Voltage Power-Transmission Cable in Lightweight Humanoid Robots**. *IEEE ISSCC*, Feb. 2025.  
+  W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu. [PDF](/files/isscc25_bidir48v.pdf)
+
+- **A Quad-Output Hybrid Buck Converter with 8 Inductors Helping One Spot from All Quarters for Multi-Core XPUs**. *IEEE CICC*, Apr. 2024.  
+  X. Mao, J. Huang, Z. Tong, R. P. Martins, Y. Lu. [PDF](/files/cicc24_quad_output.pdf)
+
+- **Where is the Inductor: A Review and Comparison of Hybrid DC–DC Buck Topologies**. *IEEE CICC*, Apr. 2025.  
+  Z. Tong, W. Yang, S. Han, J. Huang, X. Mao, Y. Lu. [PDF](/files/cicc25_where_inductor.pdf)
+
+- **A 42 W Reconfigurable Bidirectional Power-Delivery Voltage-Regulating Cable**. *IEEE ISSCC*, Feb. 2023. **Highlight Paper.**  
+  Z. Tong, J. Huang, Y. Lu, R. P. Martins. [PDF](/files/isscc23_vr_cable.pdf)
+
+- **An Always Dual-Path Hybrid DC–DC Converter with Multiphase Interleaving Switched-Capacitor Cell Obtaining 45% Output-Ripple Reduction**. *IEEE ISCAS*, May 2025.  
+  Z. Yu, J. Huang, Z. Tong, M. Huang, Y. Lu. [PDF](/files/iscas25_dual_path.pdf)
+
+- **A 12 V-Input 1.8 V–0.8 V-Output Multiple-Output Hybrid Buck DC–DC Converter with a Shared Flying Capacitor**. *IEEE ISCAS*, May 2025.  
+  F. Luo, J. Huang, M. Huang, Y. Lu. [PDF](/files/iscas25_shared_fc.pdf)
+
+- **A 5 V-to-0.8 V Inductor-First 2L2C Multi-Path Hybrid DC–DC Converter**. *IEEE ISCAS*, May 2025.  
+  Y. Hu, J. Huang, M. Huang, Y. Lu. [PDF](/files/iscas25_iog_2l2c.pdf)
