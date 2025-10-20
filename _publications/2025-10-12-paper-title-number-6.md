@@ -14,6 +14,9 @@ show_date: false
 ## First-author
 
 ### Journal Articles
+- **A Fast-Slow Two-Module High Power Density DC-DC Solution with Transient and Efficiency Improvements**. *IEEE Journal of Solid-State Circuits (JSSC)*, 2025.  
+  J. Huang, Z. Tong, Xiangyu Mao，C.-S. Lam, R. P. Martins, Y. Lu, accepted.
+
 - **A Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid DC–DC Converter**. *IEEE Journal of Solid-State Circuits (JSSC)*, 2024.  
   J. Huang, Z. Tong, C.-S. Lam, X. Mao, R. P. Martins, Y. Lu. 
 
