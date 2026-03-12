@@ -7,34 +7,39 @@ redirect_from:
   - /about.html
 ---
 
-<link rel="stylesheet" href="/assets/css/chip-gallery.css">
+<link rel="stylesheet" href="/assets/css/homepage-gallery.css">
 
 Hello! My name is Junwei Huang—a Postdoctoral Fellow at the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://ime.um.edu.mo/people/rmartins/), collaborating with [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (Tsinghua University). I'm currently a visiting postdoctoral researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://www2.eecs.berkeley.edu/Faculty/Homepages/pilawa.html). I focus on power-management ICs and power electronics with high current density, high efficiency, and fast transient response. Thanks for visiting! <br>You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
-<div class="chip-gallery">
-  <div class="chip-row chip-row-top">
-    <div class="chip-card">
+<div class="hp-gallery">
+  <div class="hp-row">
+    <a href="/research/" class="hp-card">
       <img src="/images/chip_one_pin.jpg" alt="One-Pin Array Chip">
-      <p class="chip-caption"><strong>①</strong> 12-to-1V Distributed Converter Array with One-Pin Current Balancing<br><span class="chip-venue">CICC 2026 · 180nm BCD & 65nm CMOS</span></p>
-    </div>
-    <div class="chip-card">
+      <div class="hp-label"><b>①</b> 12-to-1V Distributed Converter Array with One-Pin Current Balancing</div>
+      <div class="hp-venue">CICC 2026 · 180nm BCD &amp; 65nm CMOS</div>
+    </a>
+    <a href="/research/" class="hp-card">
       <img src="/images/chip_dual_loop.jpg" alt="Dual-Loop Chip">
-      <p class="chip-caption"><strong>②</strong> 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid Converter<br><span class="chip-venue">ISSCC 2025 Highlight · 180nm BCD</span></p>
-    </div>
+      <div class="hp-label"><b>②</b> 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid Converter</div>
+      <div class="hp-venue">ISSCC 2025 Highlight · 180nm BCD</div>
+    </a>
   </div>
-  <div class="chip-row chip-row-bottom">
-    <div class="chip-card">
+  <div class="hp-row">
+    <a href="/research/" class="hp-card">
       <img src="/images/chip_aux_transient.jpg" alt="Aux Transient Chip">
-      <p class="chip-caption"><strong>③</strong> Fast-Slow Two-Module High-Power-Density DC-DC Converter<br><span class="chip-venue">CICC 2024 / JSSC 2025 · 180nm BCD</span></p>
-    </div>
-    <div class="chip-card">
+      <div class="hp-label"><b>③</b> Fast-Slow Two-Module High-Power-Density DC-DC Converter</div>
+      <div class="hp-venue">CICC 2024 / JSSC 2025 · 180nm BCD</div>
+    </a>
+    <a href="/research/" class="hp-card">
       <img src="/images/chip_inductor_first.jpg" alt="Inductor-First Chip">
-      <p class="chip-caption"><strong>④</strong> Multi-Path Inductor-First Inductor-on-Ground Hybrid Converter<br><span class="chip-venue">CICC 2023 / JSSC 2024 · 180nm BCD</span></p>
-    </div>
-    <div class="chip-card">
+      <div class="hp-label"><b>④</b> Multi-Path Inductor-First Inductor-on-Ground Hybrid Converter</div>
+      <div class="hp-venue">CICC 2023 / JSSC 2024 · 180nm BCD</div>
+    </a>
+    <a href="/research/" class="hp-card">
       <img src="/images/chip_sdsd.jpg" alt="SDSD Chip">
-      <p class="chip-caption"><strong>⑤</strong> Symmetrical Double Step-Down Converter with Extended VCR<br><span class="chip-venue">TCAS-I 2022 · 65nm CMOS</span></p>
-    </div>
+      <div class="hp-label"><b>⑤</b> Symmetrical Double Step-Down Converter with Extended VCR</div>
+      <div class="hp-venue">TCAS-I 2022 · 65nm CMOS</div>
+    </a>
   </div>
 </div>
 
