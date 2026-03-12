@@ -79,9 +79,10 @@ research_summary:
     bullets:
       - >-
         My research focuses on the co-design of board-level power
-        electronics and on-package/on-die PMICs, targeting >3,000 A
-        aggregate load and >2.5 A/mm² current density and >4550W/in³
-        power density for next-generation CPUs/GPUs.
+        electronics and on-interposer high-voltage integrated voltage
+        regulators (HV IVR, >6V input) for next-generation GPU/CPU
+        power delivery, leveraging hybrid switched-capacitor/inductor
+        converter topologies and scalable distributed converter arrays..
 
 # ── Awards & Service ───────────────────────────────────────
 awards:
