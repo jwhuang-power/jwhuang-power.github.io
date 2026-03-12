@@ -1,17 +1,16 @@
 ---
 permalink: /
-title: "Welcom to Junwei Huang's Homepage"
+title: "Welcome to Junwei Huang's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Hello! My name is Junwei Huang—a Postdoctoral Fellow at the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://ime.um.edu.mo/people/rmartins/), collaborating with [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (Tsinghua University). I’m currently a visiting postdoctoral researcher in  in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://www2.eecs.berkeley.edu/Faculty/Homepages/pilawa.html). I focus on power-management ICs and power electronics with high current density, high efficiency, and fast transient response. Thanks for visiting! <br>You can find my [CV](https://jwhuang-power.github.io/assets/CV_Junwei_Huang_2510.pdf) here.
-
+Hello! My name is Junwei Huang—a Postdoctoral Fellow at the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://ime.um.edu.mo/people/rmartins/), collaborating with [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (Tsinghua University). I'm currently a visiting postdoctoral researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://www2.eecs.berkeley.edu/Faculty/Homepages/pilawa.html). I focus on power-management ICs and power electronics with high current density, high efficiency, and fast transient response. Thanks for visiting! <br>You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 Education
 ======
+
 ### Education
 
 - **Ph.D. in Electrical and Computer Engineering**, [University of Macau](https://www.um.edu.mo/) · 2018.08–2024.07  
