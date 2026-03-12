@@ -11,7 +11,7 @@ toc_label: "On this page"
 
 <div class="pub-banner">
   <h3>Research Direction: High Performance Power Management Solution</h3>
-  <p class="headline">Published &amp; accepted <span>26 papers</span>, including <span>8 as first-author</span></p>
+  <p class="headline">Published &amp; accepted <span>27 papers</span>, including <span>7 as first-author</span></p>
   <table class="pub-table">
     <tr>
       <th>Journal / Conference</th>
@@ -39,7 +39,7 @@ toc_label: "On this page"
     </tr>
     <tr>
       <td class="venue top">IEEE Custom Integrated Circuits Conference (CICC)</td>
-      <td class="counts"><span class="fa">First-Author &times;3</span><br><span class="ca">Co-Author &times;3</span></td>
+      <td class="counts"><span class="fa">First-Author &times;3</span><br><span class="ca">Co-Author &times;5</span></td>
     </tr>
     <tr>
       <td class="venue">IEEE Int. Symposium on Circuits and Systems (ISCAS)</td>
@@ -56,7 +56,7 @@ toc_label: "On this page"
 
 ### Journal Articles
 
-- **A Fast-Slow Two-Module High-Power-Density DC-DC Solution with Transient and Efficiency Improvements**. <span class="pub-accepted">Accepted</span>  
+- **A Fast-Slow Two-Module High-Power-Density DC-DC Solution with Transient and Efficiency Improvements**.  
   *IEEE Journal of Solid-State Circuits (JSSC)*, 2025.  
   **J. Huang**, Z. Tong, X. Mao, C.-S. Lam, R. P. Martins, Y. Lu.
 
@@ -137,6 +137,14 @@ toc_label: "On this page"
 - **An Output-Rail-Scalable Hybrid Buck Converter with Globally Adaptive Frequency Control Achieving 98.0% Peak Efficiency**. <span class="pub-accepted">Accepted</span>  
   *IEEE Custom Integrated Circuits Conference (CICC)*, Apr. 2026.  
   Z. Yu, **J. Huang**, Z. Tong, Z. Zhu, Y. Lu.
+
+- **A 94.1% Peak Efficiency Coupled-Inductor Boost Converter with Small Inductor Current Ripple and Fast Transient Response**. <span class="pub-accepted">Accepted</span>  
+  *IEEE Custom Integrated Circuits Conference (CICC)*, Apr. 2026.  
+  S. Han, **J. Huang**, F. Song, Z. Tong, S.-W. Sin, H. Jiang, X. Wu, T. Ren, Y. Lu.
+
+- **A 6V-to-1V ReSC-Hybrid Two-Stage Merged Buck Converter with an Ultra-Small Inductor for VPD**. <span class="pub-accepted">Accepted</span>  
+  *IEEE Custom Integrated Circuits Conference (CICC)*, Apr. 2026.  
+  Z. Song, Z. Tong, **J. Huang**, Z. Zhu, S.-W. Sin, Y. Lu.
 
 - **Where is the Inductor: A Review and Comparison of Hybrid DC-DC Buck Topologies**.  
   *IEEE Custom Integrated Circuits Conference (CICC)*, Apr. 2025.  
