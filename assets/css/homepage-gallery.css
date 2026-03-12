@@ -1,0 +1,83 @@
+/* homepage-gallery.css — chip gallery for about page */
+/* 2+3 layout, white card background, responsive */
+
+.hp-gallery {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.hp-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.hp-card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  text-decoration: none !important;
+  color: #333 !important;
+  transition: box-shadow 0.2s, transform 0.2s;
+  min-width: 0;
+}
+
+/* Row 1: 2 cards → each ~48% */
+.hp-row:first-child .hp-card {
+  flex: 0 1 48%;
+  max-width: 48%;
+}
+
+/* Row 2: 3 cards → each ~31% */
+.hp-row:nth-child(2) .hp-card {
+  flex: 0 1 31%;
+  max-width: 31%;
+}
+
+.hp-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.hp-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  background: #f8f8f8;
+}
+
+.hp-label {
+  font-size: 11px;
+  line-height: 1.35;
+  text-align: center;
+  margin-top: 6px;
+  color: #222;
+  font-weight: 500;
+}
+
+.hp-venue {
+  font-size: 10px;
+  color: #888;
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 500px) {
+  .hp-row {
+    flex-wrap: wrap !important;
+  }
+  .hp-row:first-child .hp-card,
+  .hp-row:nth-child(2) .hp-card {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
+}
