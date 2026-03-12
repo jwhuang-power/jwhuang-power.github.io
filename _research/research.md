@@ -38,33 +38,33 @@ author_profile: true
 
 ---
 
-## 1) A Symmetrical Double Step-Down Converter with Extended Voltage Conversion Ratio
+## 1) A Scalable Distributed 12-to-1V Fast-Slow Hybrid DC-DC Combo with Fast-Transient Bucklets and One-Pin Current Balancing
 
-**Challenge:** In battery-powered devices, the input voltage swings widely (2.7–4.2 V for Li-ion), while the processor core needs a tight low voltage (~0.5–0.8 V). Conventional Double Step-Down (DSD) hybrids are constrained to duty cycles D < 0.5, limiting their usable conversion ratio range.
+**Challenge:** As single-package current scales toward hundreds of amperes, centralized parallel control becomes a routing bottleneck with O(N) interconnect complexity, causing current imbalance and transient de-synchronization.
 
-**Approach:** By symmetrizing the DSD topology, I break the D < 0.5 constraint and extend the effective VCR range without adding switching stages. The symmetric structure equalizes inductor charging intervals, improving current density and reducing output ripple.
+**Approach:** Distributed local feedback with a single shared one-pin bus for current self-balancing. Each unit performs autonomous local control; inter-module communication is reduced to O(1). The one-pin bus passively equalizes currents without high-bandwidth digital links.
 
 **Highlights:**
-- Extends hybrid converter VCR range beyond the traditional D < 0.5 limit
-- Improves efficiency across the full battery discharge range
-- Validated in silicon; cited by groups at Dartmouth College, SCUT, and others
+- 4-phase array: 12V to 1V, 22 A output; 89.1% peak efficiency; 1.46 A/mm2 current density
+- 6A / 20ns load step: ~55 mV undershoot, 2.2 us recovery
+- Directly applicable to Power Chiplet and vertical power delivery architectures
 
-*Published in IEEE TCAS-I (2022)*
+*Accepted at IEEE CICC (2026)*
 
 ---
 
-## 2) A Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid DC-DC Converter
+## 2) A 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid DC-DC Converter with Specified Inductor Current Allocation and Fast Transient Response
 
-**Challenge:** Conventional hybrid converters place the inductor on the output (high-current) side, causing large DCR losses, high input current ripple, and dependence on bulky input capacitors.
+**Challenge:** High-VCR bus-powered supplies face a fundamental tension: optimizing for efficiency limits bandwidth, and vice versa.
 
-**Approach:** I propose repositioning the inductor to the input or ground-referenced branch, so energy buffering moves upstream. This makes input current quasi-continuous, reduces input capacitor requirements, and lowers conduction loss at high-current nodes.
+**Approach:** A fast-slow dual-module architecture on a single chip with dedicated dual-loop control: a slow module (~1 MHz) handles the high-VCR efficiency path; a fast module (~20 MHz) handles transient injection at high bandwidth. Bandwidth separation and coupled-loop stability are rigorously verified.
 
 **Highlights:**
-- Covers Vin = 3–5 V (Li-ion + 5V USB), Vout = 0.5–1.2 V, VCR up to 10:1
-- 96.1% peak efficiency; 1.02 A/mm2 current density (~2.3x over prior art)
-- Reduced EMI due to continuous input current
+- Vout undershoot: 426 mV to 35 mV (12.2x); overshoot: 397 mV to 32 mV (12.4x)
+- Dual-loop co-stability validated via small-signal modeling and silicon measurement
+- Establishes a reusable "fast-slow split + dual-loop" design paradigm
 
-*Published in IEEE CICC (2023); extended version in IEEE JSSC (2024)*
+*Published in IEEE ISSCC (2025, highlight paper)*
 
 ---
 
@@ -83,30 +83,30 @@ author_profile: true
 
 ---
 
-## 4) A 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid DC-DC Converter with Specified Inductor Current Allocation and Fast Transient Response
+## 4) A Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid DC-DC Converter
 
-**Challenge:** High-VCR bus-powered supplies face a fundamental tension: optimizing for efficiency limits bandwidth, and vice versa.
+**Challenge:** Conventional hybrid converters place the inductor on the output (high-current) side, causing large DCR losses, high input current ripple, and dependence on bulky input capacitors.
 
-**Approach:** A fast-slow dual-module architecture on a single chip with dedicated dual-loop control: a slow module (~1 MHz) handles the high-VCR efficiency path; a fast module (~20 MHz) handles transient injection at high bandwidth. Bandwidth separation and coupled-loop stability are rigorously verified.
+**Approach:** I propose repositioning the inductor to the input or ground-referenced branch, so energy buffering moves upstream. This makes input current quasi-continuous, reduces input capacitor requirements, and lowers conduction loss at high-current nodes.
 
 **Highlights:**
-- Vout undershoot: 426 mV to 35 mV (12.2x); overshoot: 397 mV to 32 mV (12.4x)
-- Dual-loop co-stability validated via small-signal modeling and silicon measurement
-- Establishes a reusable "fast-slow split + dual-loop" design paradigm
+- Covers Vin = 3-5 V (Li-ion + 5V USB), Vout = 0.5-1.2 V, VCR up to 10:1
+- 96.1% peak efficiency; 1.02 A/mm2 current density (~2.3x over prior art)
+- Reduced EMI due to continuous input current
 
-*Published in IEEE ISSCC (2025, highlight paper)*
+*Published in IEEE CICC (2023); extended version in IEEE JSSC (2024)*
 
 ---
 
-## 5) A Scalable Distributed 12-to-1V Fast-Slow Hybrid DC-DC Combo with Fast-Transient Bucklets and One-Pin Current Balancing
+## 5) A Symmetrical Double Step-Down Converter with Extended Voltage Conversion Ratio
 
-**Challenge:** As single-package current scales toward hundreds of amperes, centralized parallel control becomes a routing bottleneck with O(N) interconnect complexity, causing current imbalance and transient de-synchronization.
+**Challenge:** In battery-powered devices, the input voltage swings widely (2.7-4.2 V for Li-ion), while the processor core needs a tight low voltage (~0.5-0.8 V). Conventional Double Step-Down (DSD) hybrids are constrained to duty cycles D < 0.5, limiting their usable conversion ratio range.
 
-**Approach:** Distributed local feedback with a single shared one-pin bus for current self-balancing. Each unit performs autonomous local control; inter-module communication is reduced to O(1). The one-pin bus passively equalizes currents without high-bandwidth digital links.
+**Approach:** By symmetrizing the DSD topology, I break the D < 0.5 constraint and extend the effective VCR range without adding switching stages. The symmetric structure equalizes inductor charging intervals, improving current density and reducing output ripple.
 
 **Highlights:**
-- 4-phase array: 12V to 1V, 22 A output; 89.1% peak efficiency; 1.46 A/mm2 current density
-- 6A / 20ns load step: ~55 mV undershoot, 2.2 us recovery
-- Directly applicable to Power Chiplet and vertical power delivery architectures
+- Extends hybrid converter VCR range beyond the traditional D < 0.5 limit
+- Improves efficiency across the full battery discharge range
+- Validated in silicon; cited by groups at Dartmouth College, SCUT, and others
 
-*Accepted at IEEE CICC (2026)*
+*Published in IEEE TCAS-I (2022)*
