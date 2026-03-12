@@ -39,7 +39,7 @@ toc_label: "On this page"
     </tr>
     <tr>
       <td class="venue top">IEEE Custom Integrated Circuits Conference (CICC)</td>
-      <td class="counts"><span class="fa">First-Author &times;4</span><br><span class="ca">Co-Author &times;3</span></td>
+      <td class="counts"><span class="fa">First-Author &times;3</span><br><span class="ca">Co-Author &times;3</span></td>
     </tr>
     <tr>
       <td class="venue">IEEE Int. Symposium on Circuits and Systems (ISCAS)</td>
