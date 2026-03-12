@@ -12,7 +12,7 @@ contact:
   phone: "+1 (510) 994-8860"
   google_scholar: "https://scholar.google.com/citations?user=XXXXXXX"
   # photo: path relative to repo root (optional)
-  photo: "images/profile.jpg"
+  photo: "images/bio.jpg"
 
 research_interests: >-
   Power management ICs (PMICs); high current density; fast transient
