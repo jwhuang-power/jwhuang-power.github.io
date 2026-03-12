@@ -64,6 +64,8 @@ author_profile: true
 - 6A / 20ns load step: ~55 mV undershoot, 2.2 us recovery
 - Directly applicable to Power Chiplet and vertical power delivery architectures
 
+<img src="/images/fig_one_pin.jpg" alt="One-Pin Architecture and Results" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+
 *Accepted at CICC (2026)*
 
 ---
@@ -78,6 +80,8 @@ author_profile: true
 - Vout undershoot: 426 mV to 35 mV (12.2x); overshoot: 397 mV to 32 mV (12.4x)
 - Dual-loop co-stability validated via small-signal modeling and silicon measurement
 - Establishes a reusable "fast-slow split + dual-loop" design paradigm
+
+<img src="/images/fig_dual_loop.jpg" alt="Dual-Loop Architecture and Transient Results" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
 
 *Published at ISSCC (2025, highlight paper)*
 
@@ -94,6 +98,8 @@ author_profile: true
 - Overshoot: 145 mV to 22 mV (6.6x); recovery: 35 us to 3 us (11.7x)
 - Main stage efficiency unaffected; auxiliary module is plug-in compatible
 
+<img src="/images/fig_fast_slow.jpg" alt="Fast-Slow Architecture and Transient Waveforms" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+
 *Published at CICC (2024); extended version in JSSC (2025)*
 
 ---
@@ -109,6 +115,8 @@ author_profile: true
 - 96.1% peak efficiency; 1.02 A/mm2 current density (~2.3x over prior art)
 - Reduced EMI due to continuous input current
 
+<img src="/images/fig_inductor_first.jpg" alt="Inductor-First Topology and Efficiency Results" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+
 *Published at CICC (2023); extended version in JSSC (2024)*
 
 ---
@@ -123,5 +131,7 @@ author_profile: true
 - Extends hybrid converter VCR range beyond the traditional D < 0.5 limit
 - Improves efficiency across the full battery discharge range
 - Validated in silicon; cited by groups at Dartmouth College, SCUT, and others
+
+<img src="/images/fig_sdsd.jpg" alt="SDSD Topology and Efficiency Curves" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
 
 *Published in TCAS-I (2022)*
