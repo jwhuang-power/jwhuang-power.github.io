@@ -9,8 +9,8 @@
 .pub-table tr:hover td { background: #f0f4ff; }
 .pub-table .venue { font-weight: 500; color: #1a1a2e; }
 .pub-table .venue.top { color: #c0392b; font-weight: 700; }
-.pub-table .fa { color: #c0392b; font-weight: 600; }
-.pub-table .ca { color: #2980b9; }
+.pub-table .fa { color: #c0392b; font-weight: 500; font-size: 0.85em; }
+.pub-table .ca { color: #2980b9; font-weight: 500; font-size: 0.85em; }
 .pub-table .counts { text-align: right; line-height: 1.8; font-size: 0.85em; }
 .pub-highlight { display: inline-block; background: #c0392b; color: #fff; font-size: 0.75em; padding: 1px 7px; border-radius: 10px; margin-left: 6px; vertical-align: middle; font-weight: 600; }
 .pub-accepted { display: inline-block; background: #27ae60; color: #fff; font-size: 0.75em; padding: 1px 7px; border-radius: 10px; margin-left: 6px; vertical-align: middle; font-weight: 600; }
