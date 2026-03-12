@@ -11,25 +11,40 @@ author_profile: true
   <div class="row">
     <div class="chip-card">
       <img src="/images/chip_one_pin.jpg" alt="One-Pin Array Chip">
-      <div class="caption"><strong>One-Pin Current Balancing Array</strong>IEEE CICC 2026 · 180nm BCD &amp; 65nm CMOS</div>
+      <div class="caption">
+        <strong>① 12-to-1V Distributed Converter Array with One-Pin Current Balancing</strong>
+        <span>CICC 2026 &nbsp;·&nbsp; 180nm BCD &amp; 65nm CMOS</span>
+      </div>
     </div>
     <div class="chip-card">
       <img src="/images/chip_dual_loop.jpg" alt="Dual-Loop Chip">
-      <div class="caption"><strong>Dual-Loop LLSC (20MHz+1MHz)</strong>IEEE ISSCC 2025 Highlight · 180nm BCD</div>
+      <div class="caption">
+        <strong>② 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid Converter</strong>
+        <span>ISSCC 2025 Highlight &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
     </div>
   </div>
   <div class="row">
     <div class="chip-card">
       <img src="/images/chip_aux_transient.jpg" alt="Aux Transient Chip">
-      <div class="caption"><strong>Fast-Slow Two-Module DC-DC</strong>IEEE CICC 2024 / JSSC 2025 · 180nm BCD</div>
+      <div class="caption">
+        <strong>③ Fast-Slow Two-Module High-Power-Density DC-DC Converter</strong>
+        <span>CICC 2024 / JSSC 2025 &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
     </div>
     <div class="chip-card">
       <img src="/images/chip_inductor_first.jpg" alt="Inductor-First Chip">
-      <div class="caption"><strong>Inductor-First Hybrid DC-DC</strong>IEEE CICC 2023 / JSSC 2024 · 180nm BCD</div>
+      <div class="caption">
+        <strong>④ Multi-Path Inductor-First Inductor-on-Ground Hybrid Converter</strong>
+        <span>CICC 2023 / JSSC 2024 &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
     </div>
     <div class="chip-card">
       <img src="/images/chip_sdsd.jpg" alt="SDSD Chip">
-      <div class="caption"><strong>Symmetrical Double Step-Down</strong>IEEE TCAS-I 2022 · 180nm BCD</div>
+      <div class="caption">
+        <strong>⑤ Symmetrical Double Step-Down Converter with Extended VCR</strong>
+        <span>TCAS-I 2022 &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
     </div>
   </div>
 </div>
@@ -49,7 +64,7 @@ author_profile: true
 - 6A / 20ns load step: ~55 mV undershoot, 2.2 us recovery
 - Directly applicable to Power Chiplet and vertical power delivery architectures
 
-*Accepted at IEEE CICC (2026)*
+*Accepted at CICC (2026)*
 
 ---
 
@@ -64,7 +79,7 @@ author_profile: true
 - Dual-loop co-stability validated via small-signal modeling and silicon measurement
 - Establishes a reusable "fast-slow split + dual-loop" design paradigm
 
-*Published in IEEE ISSCC (2025, highlight paper)*
+*Published at ISSCC (2025, highlight paper)*
 
 ---
 
@@ -79,7 +94,7 @@ author_profile: true
 - Overshoot: 145 mV to 22 mV (6.6x); recovery: 35 us to 3 us (11.7x)
 - Main stage efficiency unaffected; auxiliary module is plug-in compatible
 
-*Published in IEEE CICC (2024); extended version in IEEE JSSC (2025)*
+*Published at CICC (2024); extended version in JSSC (2025)*
 
 ---
 
@@ -94,7 +109,7 @@ author_profile: true
 - 96.1% peak efficiency; 1.02 A/mm2 current density (~2.3x over prior art)
 - Reduced EMI due to continuous input current
 
-*Published in IEEE CICC (2023); extended version in IEEE JSSC (2024)*
+*Published at CICC (2023); extended version in JSSC (2024)*
 
 ---
 
@@ -109,4 +124,4 @@ author_profile: true
 - Improves efficiency across the full battery discharge range
 - Validated in silicon; cited by groups at Dartmouth College, SCUT, and others
 
-*Published in IEEE TCAS-I (2022)*
+*Published in TCAS-I (2022)*
