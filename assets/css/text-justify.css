@@ -1,0 +1,8 @@
+/* text-justify.css — full justify for main content */
+.page__content p,
+.page__content li,
+.page__content blockquote,
+article p,
+article li {
+  text-align: justify !important;
+}
