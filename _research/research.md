@@ -43,7 +43,7 @@ author_profile: true
       <img src="/images/chip_sdsd.jpg" alt="SDSD Chip">
       <div class="caption">
         <strong>⑤ Symmetrical Double Step-Down Converter with Extended VCR</strong>
-        <span>TCAS-I 2022 &nbsp;·&nbsp; 180nm BCD</span>
+        <span>TCAS-I 2022 &nbsp;·&nbsp; 65nm CMOS</span>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@ author_profile: true
 - Overshoot: 145 mV to 22 mV (6.6x); recovery: 35 us to 3 us (11.7x)
 - Main stage efficiency unaffected; auxiliary module is plug-in compatible
 
-<img src="/images/fig_fast_slow.jpg" alt="Fast-Slow Architecture and Transient Waveforms" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+<img src="/images/fig_aux_transient.jpg" alt="Fast-Slow Architecture and Transient Waveforms" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
 
 *Published at CICC (2024); extended version in JSSC (2025)*
 
@@ -134,4 +134,4 @@ author_profile: true
 
 <img src="/images/fig_sdsd.jpg" alt="SDSD Topology and Efficiency Curves" style="width:100%; max-width:720px; display:block; margin:16px auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
 
-*Published in TCAS-I (2022)*
+*Published in TCAS-I (2022) · 65nm CMOS*
