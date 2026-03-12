@@ -1,0 +1,47 @@
+# .github/workflows/generate-cv.yml
+# Auto-generates CV PDF when _data/cv.yml is changed.
+
+name: Generate CV PDF
+
+on:
+  push:
+    paths:
+      - '_data/cv.yml'
+      - 'scripts/cv_template.html'
+      - 'scripts/generate_cv.py'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push the generated PDF back
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies (WeasyPrint)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev libcairo2
+
+      - name: Install Python dependencies
+        run: pip install weasyprint jinja2 pyyaml
+
+      - name: Generate CV PDF
+        run: python scripts/generate_cv.py
+
+      - name: Commit and push PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add files/CV_Junwei_Huang.pdf
+          # Only commit if there are changes
+          git diff --cached --quiet || git commit -m "🤖 Auto-generate CV PDF [skip ci]"
+          git push
