@@ -10,7 +10,7 @@ author_profile: true
 .chip-gallery .row { display: flex; gap: 12px; margin-bottom: 12px; justify-content: center; }
 .chip-gallery .chip-card { flex: 1; max-width: 340px; background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; }
 .chip-gallery .chip-card:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,0.15); }
-.chip-gallery .chip-card img { width: 100%; height: 200px; object-fit: cover; display: block; }
+.chip-gallery .chip-card img { width: 100%; height: 200px; object-fit: contain; object-position: center; background: #1a1a1a; display: block; }
 .chip-gallery .chip-card .caption { padding: 8px 10px; font-size: 0.78em; color: #444; line-height: 1.4; border-top: 1px solid #e0e0e0; }
 .chip-gallery .chip-card .caption strong { display: block; font-size: 0.88em; color: #1a1a2e; margin-bottom: 2px; }
 </style>
@@ -29,15 +29,15 @@ author_profile: true
   <div class="row">
     <div class="chip-card">
       <img src="/images/chip_aux_transient.jpg" alt="Aux Transient Chip">
-      <div class="caption"><strong>③ Easy-Add-On Transient Module</strong>PCB Prototype</div>
+      <div class="caption"><strong>③ Easy-Add-On Transient Module</strong>IEEE CICC 2024 / JSSC 2025 · 180nm BCD</div>
     </div>
     <div class="chip-card">
       <img src="/images/chip_dual_loop.jpg" alt="Dual-Loop Chip">
-      <div class="caption"><strong>④ Dual-Loop LLSC (20MHz+1MHz)</strong>IEEE ISSCC Highlight · 55nm BCD</div>
+      <div class="caption"><strong>④ Dual-Loop LLSC (20MHz+1MHz)</strong>IEEE ISSCC Highlight · 180nm BCD</div>
     </div>
     <div class="chip-card">
       <img src="/images/chip_one_pin.jpg" alt="One-Pin Array Chip">
-      <div class="caption"><strong>⑤ One-Pin Current Balancing Array</strong>IEEE CICC 2026 · 55nm BCD</div>
+      <div class="caption"><strong>⑤ One-Pin Current Balancing Array</strong>IEEE CICC 2026 · 180nm BCD & 65nm CMOS</div>
     </div>
   </div>
 </div>
@@ -87,7 +87,7 @@ author_profile: true
 - Overshoot: 145 mV → 22 mV (6.6×); recovery: 35 us → 3 us (11.7×)
 - Main stage efficiency unaffected; auxiliary module is plug-in compatible
 
-*Manuscript in preparation*
+*Published in IEEE CICC (2024); extended version in IEEE JSSC (2025)*
 
 ---
 
@@ -117,4 +117,4 @@ author_profile: true
 - 6A / 20ns load step: ~55 mV undershoot, 2.2 us recovery
 - Directly applicable to Power Chiplet and vertical power delivery architectures
 
-*Prototype validated; paper in preparation*
+*Published in IEEE CICC (2026)*
