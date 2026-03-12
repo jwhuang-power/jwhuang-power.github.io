@@ -1,269 +1,47 @@
-# ============================================================
-#  Junwei Huang — CV Data (Single Source of Truth)
-#  Edit this file, push to GitHub, PDF auto-generates.
-# ============================================================
+# .github/workflows/generate-cv.yml
+# Auto-generates CV PDF when _data/cv.yml is changed.
 
-name: "Junwei Huang"
+name: Generate CV PDF
 
-contact:
-  emails:
-    - jwhuang@um.edu.mo
-    - jwhuang@berkeley.edu
-  phone: "+1 (510) 994-8860"
-  google_scholar: "https://scholar.google.com/citations?user=NETRgSoAAAAJ&hl=zh-CN"
-  # photo: path relative to repo root (optional)
-  photo: "images/bio.png"
+on:
+  push:
+    paths:
+      - '_data/cv.yml'
+      - 'scripts/cv_template.html'
+      - 'scripts/generate_cv.py'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
 
-research_interests: >-
-  Power management ICs (PMICs); high current density; fast transient
-  response; chiplet/vertical power delivery
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push the generated PDF back
 
-# ── Education ──────────────────────────────────────────────
-education:
-  - period: "2018.08–2024.07"
-    institution: "University of Macau"
-    department: "Electrical and Computer Engineering"
-    degree: "Ph.D."
-    note: "Advisors: Prof. Yan Lu and Prof. Chi-Seng Lam"
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-  - period: "2014.09–2018.06"
-    institution: "University of Electronic Science and Technology of China"
-    department: "Microelectronics Science and Engineering"
-    degree: "B.Eng."
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-# ── Academic Appointments ──────────────────────────────────
-appointments:
-  - period: "2025.09–present"
-    institution: "University of California, Berkeley"
-    department: "Department of Electrical Engineering and Computer Sciences (EECS)"
-    title: "Visiting Postdoctoral Researcher"
-    note: "Faculty Host: Prof. Robert Pilawa-Podgurski"
+      - name: Install system dependencies (WeasyPrint)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev libcairo2
 
-  - period: "2025.09–present"
-    institution: "University of Macau"
-    department: "Institute of Microelectronics"
-    title: "Postdoctoral Fellow"
-    note: "PI: Prof. Rui P. Martins and Prof. Sai-Weng Sin"
+      - name: Install Python dependencies
+        run: pip install weasyprint jinja2 pyyaml markupsafe
 
-  - period: "2024.11–2025.05"
-    institution: "Tsinghua University"
-    department: "Department of Electronic Engineering"
-    title: "Visiting Scholar"
-    note: "Faculty Host: Prof. Yan Lu"
+      - name: Generate CV PDF
+        run: python scripts/generate_cv.py
 
-  - period: "2024.10–2025.09"
-    institution: "University of Macau"
-    department: "Institute of Microelectronics"
-    title: "Research Assistant"
-    note: "PI: Prof. Rui. P Martins"
-
-# ── Research Summary ───────────────────────────────────────
-research_summary:
-  - affiliation: "University of Macau, State Key Laboratory of Analog and Mixed-Signal VLSI"
-    period: "2018.08–present"
-    bullets:
-      - >-
-        My research focuses on the design of power management chips with
-        high current density and fast transient response. To date, I have
-        published 25 papers in international conferences and journals,
-        including 17 conference papers at ISSCC (1 highlight paper as first
-        author), CICC (3 paper as first author), and ISCAS, and 8 journals
-        in JSSC (2 as first author), TCAS-I (1 as first author), OJ-SSCS,
-        and JOS
-      - >-
-        I was invited to present at an IEEE PES/PELS event held at UC
-        Berkeley, recognized for expertise in PMIC design.
-
-  - affiliation: "University of California, Berkeley, EECS"
-    period: "2025.09–present"
-    bullets:
-      - >-
-        My research focuses on the co-design of board-level power
-        electronics and on-interposer high-voltage integrated voltage
-        regulators (HV IVR, >6V input) for next-generation GPU/CPU
-        power delivery, leveraging hybrid switched-capacitor/inductor
-        converter topologies and scalable distributed converter arrays..
-
-# ── Awards & Service ───────────────────────────────────────
-awards:
-  - "Akrostar Technology Academic Prize for the academic year 2023/2024 (Top 3)."
-  - "Reviewer for IEEE Transactions on Industrial Electronics, IEEE Transactions on Circuits and Systems II."
-
-# ── Publications ───────────────────────────────────────────
-# Tags: highlight, accepted, first_author (auto-detected by bold name)
-# The script auto-bolds "J. Huang" in the output.
-
-publications:
-  conference:
-    - id: "C1"
-      text: >-
-        J. Huang, X. Mao, Z. Tong, Z. Yu, W. Yang, C. -S. Lam, R. P. Martins,
-        Y. Lu, "A 20MHz-1MHz Dual-Loop Non-Uniform-Multi-Inductor Hybrid DC-DC
-        Converter with Specified Inductor Current Allocation and Fast Transient
-        Response," in IEEE Int. Solid-State Circuits Conf. (ISSCC), Feb 2025.
-      tags: [highlight]
-
-    - id: "C2"
-      text: >-
-        J. Huang, Z. Tong, X. Mao, C. -S. Lam, R. P. Martins and Y. Lu,
-        "A Fast-Slow Two-Module DC-DC Solution with Transient and Efficiency
-        Improvements for 2.5D/3D Integration," 2024 IEEE Custom Integrated
-        Circuits Conference (CICC), Apr. 2024.
-
-    - id: "C3"
-      text: >-
-        J. Huang, Z. Tong, Y. Lu, C. -S. Lam, R. P. Martins, "A 5V-to-0.5V
-        Inductor-First Inductor-on-Ground Switched Capacitor Multi-Path Hybrid
-        DC-DC Converter," 2023 IEEE Custom Integrated Circuits Conf. (CICC),
-        Apr. 2023.
-
-    - id: "C4"
-      text: >-
-        J. Huang, X. Mao, Z. Tong, Z. Yu, S. Han, C. -S. Lam, R. P. Martins,
-        Y. Lu, "A Scalable Distributed 12-to-1V Fast-Slow Hybrid DC-DC Combo
-        with Fast-Transient Bucklets and One-Pin Current Balancing," 2026 IEEE
-        Custom Integrated Circuits Conf. (CICC), Apr. 2026.
-      tags: [accepted]
-
-    - id: "C5"
-      text: >-
-        Z. Tong, J. Huang, Y. Lu, R. P. Martins, "A 42W Reconfigurable
-        Bidirectional Power Delivery Voltage-Regulating Cable," in IEEE Int.
-        Solid-State Circuits Conf. (ISSCC), Feb 2023.
-      tags: [highlight]
-
-    - id: "C6"
-      text: >-
-        Z. Zhu, J. Huang, Z. Song, Z. Yu, S. Han, S-W. Sin, Y. Lu "An
-        Inductor-at-Middle Hybrid Buck Converter with Shared Power-Signal Path
-        for Distributed Vertical Power Delivery," in IEEE Int. Solid-State
-        Circuits Conf. (ISSCC), Feb 2026.
-      tags: [accepted]
-
-    - id: "C7"
-      text: >-
-        Z. Yu, Z. Tong, J. Huang, J. Yin, Y. Lu "A Compact Dual-Capacitor
-        Relay SPT Supply Modulator with Overshoot-Free Adaptive On-Time Control
-        for 5G FR2 CMOS PA," in IEEE Int. Solid-State Circuits Conf. (ISSCC),
-        Feb 2026.
-      tags: [accepted]
-
-    - id: "C8"
-      text: >-
-        Z. Tong, Z. Yu, J. Huang, X. Mao, Bernhard Wicht, Rui P. Martins,
-        Yan Lu, "HOOP: A Scalable Hybrid DC-DC Converter Ring for High
-        Performance Computing," in IEEE Int. Solid-State Circuits Conf. (ISSCC),
-        Feb 2025.
-
-    - id: "C9"
-      text: >-
-        W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu, "A Bi-Directional
-        Dual-Path Boost-48V-Buck Hybrid Converter for High-Voltage Power
-        Transmission Cable in Light-Weight Humanoid Robots" in IEEE Int.
-        Solid-State Circuits Conf. (ISSCC), Feb 2025.
-
-    - id: "C10"
-      text: >-
-        Z. Yu, J. Huang, Z. Tong, Z. Zhu, Y. Lu, "An Output-Rail-Scalable
-        Hybrid Buck Converter with Globally Adaptive Frequency Control Achieving
-        98.0% Peak Efficiency and 490 mW/mm³ Power Density," 2026 IEEE Custom
-        Integrated Circuits Conf. (CICC), Apr. 2026.
-      tags: [accepted]
-
-    - id: "C11"
-      text: >-
-        S. Han, J. Huang, F. Song, Z. Tong, S-W Sin, H. Jiang, X. Wu, T. Ren,
-        Y. Lu, "A 94.1% Peak Efficiency Coupled-Inductor Boost Converter with
-        Small Inductor Current Ripple and Fast Transient Response," 2026 IEEE
-        Custom Integrated Circuits Conf. (CICC), Apr. 2026.
-      tags: [accepted]
-
-    - id: "C12"
-      text: >-
-        Z. Song, Z. Tong, J. Huang, Z. Zhu, S-W Sin, Y. Lu, "A 6V-to-1V
-        ReSC-Hybrid Two-Stage Merged Buck Converter with an Ultra-Small Inductor
-        for VPD," 2026 IEEE Custom Integrated Circuits Conf. (CICC), Apr. 2026.
-      tags: [accepted]
-
-    - id: "C13"
-      text: >-
-        X. Mao, J. Huang, Z. Tong, R. P. Martins and Y. Lu, "A Quad-Output
-        Hybrid Buck Converter with 8-Inductor Helping One Spot from All Quarters
-        for Multi-Core XPUs," 2024 IEEE Custom Integrated Circuits Conf. (CICC),
-        Apr. 2024.
-
-    - id: "C14"
-      text: >-
-        Z. Tong, W. Yang, S. Han, J. Huang, X. Mao, Y. Lu, "Where is the
-        Inductor: A Review and Comparison of the Hybrid DC-DC Buck Topologies,"
-        2025 IEEE Custom Integrated Circuits Conf. (CICC), April 2025.
-
-    - id: "C15"
-      text: >-
-        Z. Yu, J. Huang, Z. Tong, M. Huang and Y. Lu, "An Always Dual-Path
-        Hybrid DC-DC Converter with Multiphase Interleaving Switched-Capacitor
-        Cell Obtaining 45% Output Ripple Reduction," IEEE International Symposium
-        on Circuits and Systems (ISCAS), May 2025.
-
-    - id: "C16"
-      text: >-
-        F. Luo, J. Huang, M. Huang and Y. Lu, "A 12V-Input 1.8V-0.8V-Output
-        Multiple-Output Hybrid Buck DC-DC Converter with a Shared Flying
-        Capacitor," IEEE International Symposium on Circuits and Systems (ISCAS),
-        May 2025.
-
-    - id: "C17"
-      text: >-
-        Y. Hu, J. Huang, M. Huang and Y. Lu, "A 5V-to-0.8V Inductor-First
-        2L2C Multi-Path Hybrid DC-DC Converter," IEEE International Symposium on
-        Circuits and Systems (ISCAS), May 2025.
-
-  journal:
-    - id: "J1"
-      text: >-
-        J. Huang, Z. Tong, X. Mao, C. -S. Lam, R. P. Martins and Y. Lu,
-        "A Fast-Slow Two-Module High-Power-Density DC–DC Solution With Transient
-        and Efficiency Improvements," in IEEE Journal of Solid-State Circuit
-        (JSSC), 2025.
-
-    - id: "J2"
-      text: >-
-        J. Huang, Z. Tong, C. -S. Lam, X. Mao, R. P. Martins, Y. Lu, "A
-        Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid
-        DC-DC Converter," in IEEE Journal of Solid-State Circuit (JSSC), 2024.
-
-    - id: "J3"
-      text: >-
-        J. Huang, C. -S. Lam, Y. Lu and R. P. Martins, "A Symmetrical Double
-        Step-Down Converter with Extended Voltage Conversion Ratio," in IEEE
-        Trans. Circuits Syst. I: Regular Papers (TCAS-I), 2022.
-
-    - id: "J4"
-      text: >-
-        Z. Tong, J. Huang, X. Mao, R. P. Martins and Y. Lu, "A Double Pulse
-        Overlapping Laser Diode Driver with Minimum 100-ps Pulse for LiDAR
-        System", in IEEE Journal of the Solid-State Circuits (JSSC), 2024.
-
-    - id: "J5"
-      text: >-
-        Z. Tong, J. Huang, X. Mao, R. P. Martins and Y. Lu, "A Bidirectional
-        USB Power Delivery Voltage-Regulating Cable", in IEEE Journal of the
-        Solid-State Circuits (JSSC), 2024.
-
-    - id: "J6"
-      text: >-
-        W. Yang, Z. Tong, J. Huang, R. P. Martins and Y. Lu, "A Bi-Directional
-        Dual-Path Boost–Buck Hybrid Converter for High-Voltage Power Transmission
-        Delivery Cable in Humanoid Robots," in IEEE Journal of the Solid-State
-        Circuits (JSSC), 2025.
-
-    - id: "J7"
-      text: >-
-        Y. Lu, J. Huang, Z. Tong, T. Hu, W.-L. Zeng, M. Huang, X. Mao and
-        G. Cai, "An Overview of Hybrid DC–DC Converters: From Seeds to Leaves,"
-        in IEEE Open Journal of the Solid-State Circuits Society (OJSSC), 2024.
-
-    - id: "J8"
-      text: >-
-        Y. Lu, G. Cai, and J. Huang, Favorable basic cells for hybrid DC–DC
-        converters[J]. Journal of Semiconductors (JOS). 2023.
+      - name: Commit and push PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add files/CV_Junwei_Huang.pdf
+          git diff --cached --quiet || git commit -m "🤖 Auto-generate CV PDF [skip ci]"
+          git pull --rebase
+          git push
