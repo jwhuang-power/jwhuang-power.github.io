@@ -35,7 +35,7 @@ author_profile: true
   </div>
 </div>
 
-*His research interests include power-management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, fast transient response, and easy scalability.*
+*My research interests include power-management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, fast transient response, and easy scalability.*
 
 ---
 
