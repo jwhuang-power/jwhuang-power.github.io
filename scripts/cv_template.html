@@ -85,15 +85,10 @@
   }
   .pub-id { font-weight: normal; }
   .tag {
-    font-size: 8pt;
-    font-weight: bold;
-    padding: 1pt 4pt;
-    border-radius: 3pt;
-    margin-left: 4pt;
-    vertical-align: middle;
+    font-size: 10pt;
+    font-style: italic;
+    margin-left: 2pt;
   }
-  .tag-highlight { background: #ffe0e0; color: #c00; }
-  .tag-accepted  { background: #dff5e0; color: #1a7a2e; }
   .author-me { font-weight: bold; }
 </style>
 </head>
@@ -168,8 +163,8 @@
 {% for p in cv.publications.conference %}
 <div class="pub-item">
   <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
-  {% if 'highlight' in (p.tags or []) %}<span class="tag tag-highlight">Highlight Paper</span>{% endif %}
-  {% if 'accepted' in (p.tags or []) %}<span class="tag tag-accepted">Accepted</span>{% endif %}
+  {% if 'highlight' in (p.tags or []) %}<span class="tag">(Highlight Paper)</span>{% endif %}
+  {% if 'accepted' in (p.tags or []) %}<span class="tag">(Accepted)</span>{% endif %}
 </div>
 {% endfor %}
 
@@ -177,8 +172,8 @@
 {% for p in cv.publications.journal %}
 <div class="pub-item">
   <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
-  {% if 'highlight' in (p.tags or []) %}<span class="tag tag-highlight">Highlight Paper</span>{% endif %}
-  {% if 'accepted' in (p.tags or []) %}<span class="tag tag-accepted">Accepted</span>{% endif %}
+  {% if 'highlight' in (p.tags or []) %}<span class="tag">(Highlight Paper)</span>{% endif %}
+  {% if 'accepted' in (p.tags or []) %}<span class="tag">(Accepted)</span>{% endif %}
 </div>
 {% endfor %}
 
