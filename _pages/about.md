@@ -39,7 +39,7 @@ Hello! My name is Junwei Huang—a Postdoctoral Fellow at the Institute of Micro
   </div>
 </div>
 
-*His research interests include power-management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, fast transient response, and easy scalability.*
+*My research interests include power-management ICs (PMICs)—particularly high-voltage-conversion-ratio DC–DC converters and highly integrated on-chip and in-package voltage regulators (IVRs)—with an emphasis on high current density, high efficiency, fast transient response, and easy scalability.*
 
 ---
 
