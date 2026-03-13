@@ -67,8 +67,8 @@ research_summary:
         high current density and fast transient response. To date, I have
         published 25 papers in international conferences and journals,
         including 17 conference papers at ISSCC (1 highlight paper as first
-        author), CICC (3 papers as first author), and ISCAS, and 8 journals
-        in JSSC (2 as first author), TCAS-I (1 as first author), OJ-SSC,
+        author), CICC (3 paper as first author), and ISCAS, and 8 journals
+        in JSSC (2 as first author), TCAS-I (1 as first author), OJ-SSCS,
         and JOS
       - >-
         I was invited to present at an IEEE PES/PELS event held at UC
@@ -135,7 +135,6 @@ publications:
         Inductor-at-Middle Hybrid Buck Converter with Shared Power-Signal Path
         for Distributed Vertical Power Delivery," in IEEE Int. Solid-State
         Circuits Conf. (ISSCC), Feb 2026.
-      tags: [accepted]
 
     - id: "C7"
       text: >-
@@ -143,7 +142,6 @@ publications:
         Relay SPT Supply Modulator with Overshoot-Free Adaptive On-Time Control
         for 5G FR2 CMOS PA," in IEEE Int. Solid-State Circuits Conf. (ISSCC),
         Feb 2026.
-      tags: [accepted]
 
     - id: "C8"
       text: >-
