@@ -35,7 +35,7 @@ jobs:
           sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev libcairo2
 
       - name: Install Python dependencies
-        run: pip install weasyprint jinja2 pyyaml markupsafe
+        run: pip install weasyprint jinja2 pyyaml markupsafe Pillow
 
       - name: Pull latest and generate CV PDF
         run: |
