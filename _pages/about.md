@@ -1,5 +1,7 @@
 ---
-layout: archive
+permalink: /
+title: ""
+excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
@@ -20,11 +22,9 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 ## Education
 
-#### Education
-
 - **Ph.D. in Electrical and Computer Engineering**, [University of Macau](https://www.um.edu.mo/) · 2018.08–2024.07  
   State Key Laboratory of Analog and Mixed-Signal VLSI ([AMSV](https://sklamsv.um.edu.mo/))  
-  Advisors: [Prof. Yan Lu](https://scholar.google.com/citations?user=WQmhDFAAAAAJ) and [Prof. Chi-Seng Lam](https://scholar.google.com/citations?user=abc123)
+  Advisors: [Prof. Yan Lu](https://scholar.google.com/citations?user=WQmhDFAAAAAJ) and [Prof. Chi-Seng Lam](https://www.fst.um.edu.mo/personal/cslam/)
 
 - **B.Eng. in Microelectronics**, [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/) · 2014–2018
 
@@ -35,7 +35,7 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 - **Visiting Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2025.09–present  
   Faculty Host: Prof. Robert Pilawa-Podgurski
 
-- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI ([AMSV](https://sklamsv.um.edu.mo/)), [University of Macau](https://www.um.edu.mo/) · 2025.09–present  
+- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI, [University of Macau](https://www.um.edu.mo/) · 2025.09–present  
   PIs: Prof. Rui P. Martins and Prof. Sai-Weng Sin
 
 - **Visiting Scholar**, Department of Electronic Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/) · 2024.11–2025.05  
@@ -48,11 +48,11 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 ## Research Summary
 
-### University of California, Berkeley, EECS · 2025.09–present
+**University of California, Berkeley, EECS** · 2025.09–present
 
 Research focuses on the co-design of board-level power electronics and on-interposer **high-voltage integrated voltage regulators (HV-IVR, >6 V input)** for next-generation GPU/CPU power delivery, leveraging hybrid switched-capacitor/inductor converter topologies and scalable distributed converter arrays to achieve high aggregate current, high current density (targeting >3.0 A/mm²), and high power density at switching frequencies >20 MHz.
 
-### University of Macau, State Key Lab of Analog and Mixed-Signal VLSI · 2018.08–2025.09
+**University of Macau, State Key Lab of Analog and Mixed-Signal VLSI** · 2018.08–2025.09
 
 - Designed and taped out **7 chips** in 65 nm CMOS and 180 nm BCD processes, covering the full IC design cycle from topology innovation, circuit/layout implementation, to silicon measurement.
 - Demonstrated state-of-the-art **efficiency (96.1% at 4-to-1.2 V)**, **current density (1.46 A/mm² at 12:1)**, and **transient response (63 mV droop @ 3.5 A load step)** across hybrid converters with conversion ratios from 4:1 to 12:1.
