@@ -46,6 +46,54 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 ---
 
+## Research Highlights
+
+<link rel="stylesheet" href="/assets/css/chip-gallery.css">
+
+<div class="chip-gallery">
+  <div class="row">
+    <div class="chip-card">
+      <img src="/images/chip_one_pin.jpg" alt="One-Pin Array Chip">
+      <div class="caption">
+        <strong>① 12-to-1V Distributed Converter Array with One-Pin Current Balancing</strong>
+        <span>CICC 2026 &nbsp;·&nbsp; 180nm BCD &amp; 65nm CMOS</span>
+      </div>
+    </div>
+    <div class="chip-card">
+      <img src="/images/chip_dual_loop.jpg" alt="Dual-Loop Chip">
+      <div class="caption">
+        <strong>② 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid Converter</strong>
+        <span>ISSCC 2025 Highlight &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="chip-card">
+      <img src="/images/chip_aux_transient.jpg" alt="Aux Transient Chip">
+      <div class="caption">
+        <strong>③ Fast-Slow Two-Module High-Power-Density DC-DC Converter</strong>
+        <span>CICC 2024 / JSSC 2025 &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
+    </div>
+    <div class="chip-card">
+      <img src="/images/chip_inductor_first.jpg" alt="Inductor-First Chip">
+      <div class="caption">
+        <strong>④ Multi-Path Inductor-First Inductor-on-Ground Hybrid Converter</strong>
+        <span>CICC 2023 / JSSC 2024 &nbsp;·&nbsp; 180nm BCD</span>
+      </div>
+    </div>
+    <div class="chip-card">
+      <img src="/images/chip_sdsd.jpg" alt="SDSD Chip">
+      <div class="caption">
+        <strong>⑤ Symmetrical Double Step-Down Converter with Extended VCR</strong>
+        <span>TCAS-I 2022 &nbsp;·&nbsp; 65nm CMOS</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
 ## Research Summary
 
 **University of California, Berkeley, EECS** · 2025.09–present
