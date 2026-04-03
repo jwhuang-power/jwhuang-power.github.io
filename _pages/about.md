@@ -13,7 +13,7 @@ redirect_from:
 
 ## Welcome to Junwei Huang's Homepage
 
-Hello! My name is Junwei Huang — a Postdoctoral Fellow at the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://www.fst.um.edu.mo/personal/rmartins/), collaborating with [Prof. Yan Lu](https://scholar.google.com/citations?user=WQmhDFAAAAAJ) (Tsinghua University). I'm currently a Visiting Postdoctoral Researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa.berkeley.edu/).
+Hello! My name is Junwei Huang — a Postdoctoral Fellow at the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://rto.um.edu.mo/prof-rui-paulo-da-silva-martins/), collaborating with [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (Tsinghua University). I'm currently a Visiting Postdoctoral Researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa-group.berkeley.edu/people/).
 
 My research interests focus on **integrated voltage regulators (IVRs)** and **power management ICs (PMICs)** — particularly hybrid switched-capacitor/inductor DC-DC converters, high-conversion-ratio power delivery, fast transient response, vertical/chiplet power delivery, and scalable multi-module power systems.
 
@@ -56,7 +56,7 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 - **Ph.D. in Electrical and Computer Engineering**, [University of Macau](https://www.um.edu.mo/) · 2018.08–2024.07  
   State Key Laboratory of Analog and Mixed-Signal VLSI ([AMSV](https://sklamsv.um.edu.mo/))  
-  Advisors: [Prof. Yan Lu](https://scholar.google.com/citations?user=WQmhDFAAAAAJ) and [Prof. Chi-Seng Lam](https://www.fst.um.edu.mo/personal/cslam/)
+  Advisors: [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) and [Prof. Chi-Seng Lam](https://www.fst.um.edu.mo/personal/cslam/)
 
 - **B.Eng. in Microelectronics**, [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/) · 2014–2018
 
