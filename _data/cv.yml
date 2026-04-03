@@ -7,8 +7,8 @@ name: "Junwei Huang"
 
 contact:
   emails:
-    - jwhuang@um.edu.mo
     - jwhuang@berkeley.edu
+    - jwhuang@um.edu.mo
   phone: "+1 (510) 994-8860"
   google_scholar: "https://scholar.google.com/citations?user=NETRgSoAAAAJ&hl=zh-CN"
   homepage: "https://jwhuang-power.github.io"
@@ -127,63 +127,82 @@ awards:
 publications:
   conference:
     - id: "C1"
+      first_author: true
       text: >-
         J. Huang, X. Mao, Z. Tong, Z. Yu, W. Yang, C.-S. Lam, R. P. Martins,
         Y. Lu, "A 20MHz-1MHz Dual-Loop Non-Uniform-Multi-Inductor Hybrid DC-DC
         Converter with Specified Inductor Current Allocation and Fast Transient
         Response," ISSCC 2025.
       tags: [highlight]
+      note: >-
+        IVR-relevant: dual-loop control with non-uniform inductors achieving
+        63 mV droop @ 3.5 A load step and 91.4% peak efficiency in 180 nm BCD
 
     - id: "C2"
+      first_author: true
       text: >-
         J. Huang, Z. Tong, X. Mao, C.-S. Lam, R. P. Martins, Y. Lu,
         "A Fast-Slow Two-Module DC-DC Solution with Transient and Efficiency
         Improvements for 2.5D/3D Integration," CICC 2024.
 
     - id: "C3"
+      first_author: true
       text: >-
         J. Huang, Z. Tong, Y. Lu, C.-S. Lam, R. P. Martins, "A 5V-to-0.5V
         Inductor-First Inductor-on-Ground Switched Capacitor Multi-Path Hybrid
         DC-DC Converter," CICC 2023.
+      note: >-
+        IVR-relevant: inductor-first topology enabling continuous input current
+        and 1.02 A/mm2 current density at up to 10:1 step-down, 96.1% peak efficiency
 
     - id: "C4"
+      first_author: true
       text: >-
         J. Huang, X. Mao, Z. Tong, Z. Yu, S. Han, C.-S. Lam, R. P. Martins,
         Y. Lu, "A Scalable Distributed 12-to-1V Fast-Slow Hybrid DC-DC Combo
         with Fast-Transient Bucklets and One-Pin Current Balancing," CICC 2026.
       tags: [accepted]
+      note: >-
+        IVR-relevant: scalable 4-phase array with one-pin decentralized current
+        balancing, 22 A total output, 1.46 A/mm2, 55 mV droop @ 6 A/20 ns load step
 
     - id: "C5"
+      first_author: false
       text: >-
         Z. Tong, J. Huang, Y. Lu, R. P. Martins, "A 42W Reconfigurable
         Bidirectional Power Delivery Voltage-Regulating Cable," ISSCC 2023.
       tags: [highlight]
 
     - id: "C6"
+      first_author: false
       text: >-
         Z. Zhu, J. Huang, Z. Song, Z. Yu, S. Han, S-W. Sin, Y. Lu, "An
         Inductor-at-Middle Hybrid Buck Converter with Shared Power-Signal Path
         for Distributed Vertical Power Delivery," ISSCC 2026.
 
     - id: "C7"
+      first_author: false
       text: >-
         Z. Yu, Z. Tong, J. Huang, J. Yin, Y. Lu, "A Compact Dual-Capacitor
         Relay SPT Supply Modulator with Overshoot-Free Adaptive On-Time Control
         for 5G FR2 CMOS PA," ISSCC 2026.
 
     - id: "C8"
+      first_author: false
       text: >-
         Z. Tong, Z. Yu, J. Huang, X. Mao, B. Wicht, R. P. Martins, Y. Lu,
         "HOOP: A Scalable Hybrid DC-DC Converter Ring for High Performance
         Computing," ISSCC 2025.
 
     - id: "C9"
+      first_author: false
       text: >-
         W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu, "A Bi-Directional
         Dual-Path Boost-48V-Buck Hybrid Converter for High-Voltage Power
         Transmission Cable in Light-Weight Humanoid Robots," ISSCC 2025.
 
     - id: "C10"
+      first_author: false
       text: >-
         Z. Yu, J. Huang, Z. Tong, Z. Zhu, Y. Lu, "An Output-Rail-Scalable
         Hybrid Buck Converter with Globally Adaptive Frequency Control Achieving
@@ -191,6 +210,7 @@ publications:
       tags: [accepted]
 
     - id: "C11"
+      first_author: false
       text: >-
         S. Han, J. Huang, F. Song, Z. Tong, S-W Sin, H. Jiang, X. Wu, T. Ren,
         Y. Lu, "A 94.1% Peak Efficiency Coupled-Inductor Boost Converter with
@@ -198,6 +218,7 @@ publications:
       tags: [accepted]
 
     - id: "C12"
+      first_author: false
       text: >-
         Z. Song, Z. Tong, J. Huang, Z. Zhu, S-W Sin, Y. Lu, "A 6V-to-1V
         ReSC-Hybrid Two-Stage Merged Buck Converter with an Ultra-Small Inductor
@@ -205,77 +226,99 @@ publications:
       tags: [accepted]
 
     - id: "C13"
+      first_author: false
       text: >-
         X. Mao, J. Huang, Z. Tong, R. P. Martins, Y. Lu, "A Quad-Output
         Hybrid Buck Converter with 8-Inductor Helping One Spot from All Quarters
         for Multi-Core XPUs," CICC 2024.
 
     - id: "C14"
+      first_author: false
       text: >-
         Z. Tong, W. Yang, S. Han, J. Huang, X. Mao, Y. Lu, "Where is the
         Inductor: A Review and Comparison of the Hybrid DC-DC Buck Topologies,"
         CICC 2025.
 
     - id: "C15"
+      first_author: false
       text: >-
         Z. Yu, J. Huang, Z. Tong, M. Huang, Y. Lu, "An Always Dual-Path
         Hybrid DC-DC Converter with Multiphase Interleaving Switched-Capacitor
         Cell Obtaining 45% Output Ripple Reduction," ISCAS 2025.
 
     - id: "C16"
+      first_author: false
       text: >-
         F. Luo, J. Huang, M. Huang, Y. Lu, "A 12V-Input 1.8V-0.8V-Output
         Multiple-Output Hybrid Buck DC-DC Converter with a Shared Flying
         Capacitor," ISCAS 2025.
 
     - id: "C17"
+      first_author: false
       text: >-
         Y. Hu, J. Huang, M. Huang, Y. Lu, "A 5V-to-0.8V Inductor-First
         2L2C Multi-Path Hybrid DC-DC Converter," ISCAS 2025.
 
   journal:
     - id: "J1"
+      first_author: true
       text: >-
         J. Huang, Z. Tong, X. Mao, C.-S. Lam, R. P. Martins, Y. Lu,
         "A Fast-Slow Two-Module High-Power-Density DC-DC Solution With Transient
         and Efficiency Improvements," IEEE JSSC, 2025.
+      note: >-
+        Two-module fast-slow hybrid architecture for 2.5D/3D integration
+        with improved transient and efficiency
 
     - id: "J2"
+      first_author: true
       text: >-
         J. Huang, Z. Tong, C.-S. Lam, X. Mao, R. P. Martins, Y. Lu, "A
         Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid
         DC-DC Converter," IEEE JSSC, 2024.
+      note: >-
+        Inductor-first multi-path topology achieving 96.1% peak efficiency
+        and 1.02 A/mm2 current density
 
     - id: "J3"
+      first_author: true
       text: >-
         J. Huang, C.-S. Lam, Y. Lu, R. P. Martins, "A Symmetrical Double
         Step-Down Converter with Extended Voltage Conversion Ratio," IEEE
         TCAS-I, 2022.
+      note: >-
+        Symmetrical topology extending voltage conversion ratio
+        for step-down applications
 
     - id: "J4"
+      first_author: false
       text: >-
         Z. Tong, J. Huang, X. Mao, R. P. Martins, Y. Lu, "A Double Pulse
         Overlapping Laser Diode Driver with Minimum 100-ps Pulse for LiDAR
         System," IEEE JSSC, 2024.
 
     - id: "J5"
+      first_author: false
       text: >-
         Z. Tong, J. Huang, X. Mao, R. P. Martins, Y. Lu, "A Bidirectional
         USB Power Delivery Voltage-Regulating Cable," IEEE JSSC, 2024.
 
     - id: "J6"
+      first_author: false
       text: >-
         W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu, "A Bi-Directional
         Dual-Path Boost-Buck Hybrid Converter for High-Voltage Power Transmission
         Delivery Cable in Humanoid Robots," IEEE JSSC, 2025.
 
     - id: "J7"
+      first_author: false
       text: >-
         Y. Lu, J. Huang, Z. Tong, T. Hu, W.-L. Zeng, M. Huang, X. Mao, G. Cai,
         "An Overview of Hybrid DC-DC Converters: From Seeds to Leaves," IEEE
         OJ-SSCS, 2024.
 
     - id: "J8"
+      first_author: false
       text: >-
         Y. Lu, G. Cai, J. Huang, "Favorable basic cells for hybrid DC-DC
         converters," J. Semiconductors, 2023.
