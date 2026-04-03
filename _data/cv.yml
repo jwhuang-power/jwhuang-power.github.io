@@ -47,17 +47,17 @@ appointments:
     title: "Postdoctoral Fellow"
     note: "PI: Prof. Rui P. Martins and Prof. Sai-Weng Sin"
 
-  - period: "2024.11–2025.05"
-    institution: "Tsinghua University"
-    department: "Department of Electronic Engineering"
-    title: "Visiting Scholar"
-    note: "Faculty Host: Prof. Yan Lu"
-
   - period: "2024.10–2025.09"
     institution: "University of Macau"
     department: "Institute of Microelectronics"
     title: "Research Assistant"
     note: "PI: Prof. Rui P. Martins"
+
+  - period: "2024.11–2025.05"
+    institution: "Tsinghua University"
+    department: "Department of Electronic Engineering"
+    title: "Visiting Scholar"
+    note: "Faculty Host: Prof. Yan Lu"
 
 # ── Research Summary ───────────────────────────────────────
 research_summary:
@@ -70,19 +70,19 @@ research_summary:
         (HV-IVR, >6 V input) for next-generation GPU/CPU power delivery,
         leveraging hybrid switched-capacitor/inductor converter topologies
         and scalable distributed converter arrays to achieve high aggregate
-        current, high current density (targeting >3.0 A/mm²), and high
-        power density at switching frequencies >20 MHz.
+        current, high current density, and high power density.
 
   - affiliation: "University of Macau, State Key Laboratory of Analog and Mixed-Signal VLSI"
     period: "2018.08–2025.09"
     bullets:
       - >-
-        Designed and taped out 7 chips in 65 nm CMOS and 180 nm BCD
-        processes, covering the full IC design cycle from topology
-        innovation, circuit/layout implementation, to silicon measurement.
+        Designed and taped out multiple hybrid SC/inductor DC-DC converters
+        in 65 nm CMOS and 180 nm BCD processes, covering the full IC design
+        cycle from topology innovation, circuit/layout implementation, to
+        silicon measurement.
       - >-
         Demonstrated state-of-the-art efficiency (96.1% at 4-to-1.2 V),
-        current density (1.46 A/mm² at 12:1), and transient response
+        current density (1.46 A/mm2 at 12:1), and transient response
         (63 mV droop @ 3.5 A load step) across hybrid converters with
         conversion ratios from 4:1 to 12:1.
       - >-
@@ -91,7 +91,7 @@ research_summary:
         complexity from O(N) to O(1) — directly applicable to IVR arrays
         and vertical power delivery.
       - >-
-        27 publications: 1 ISSCC highlight paper (1st author), 3 CICC
+        25 publications: 1 ISSCC highlight paper (1st author), 3 CICC
         1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author.
         Total: 6 ISSCC + 6 JSSC contributions.
 
@@ -107,13 +107,13 @@ skills:
     details: "65 nm CMOS, 180 nm BCD (high-voltage NMOS/PMOS)"
   - category: "EDA Tools"
     details: >-
-      Cadence Virtuoso (Spectre, Layout XL), Synopsys HSPICE,
-      Ansys (HFSS/Maxwell), MATLAB/Simulink, LTspice,
-      Altium Designer (PCB)
+      Cadence Virtuoso (Spectre, Layout XL), Ansys (HFSS/Maxwell),
+      MATLAB/Simulink, Altium Designer (PCB)
   - category: "Lab Equipment"
     details: >-
-      Oscilloscopes, spectrum analyzers, semiconductor parameter
-      analyzers, probe stations; board-level power converter testing
+      Oscilloscopes, spectrum analyzers, semiconductor parameter analyzers,
+      probe stations; board-level power converter testing;
+      multi-chip measurement and characterization
   - category: "Programming"
     details: "SKILL (Cadence), Python, MATLAB, Verilog (digital control blocks)"
 
@@ -128,171 +128,154 @@ publications:
   conference:
     - id: "C1"
       text: >-
-        J. Huang, X. Mao, Z. Tong, Z. Yu, W. Yang, C. -S. Lam, R. P. Martins,
+        J. Huang, X. Mao, Z. Tong, Z. Yu, W. Yang, C.-S. Lam, R. P. Martins,
         Y. Lu, "A 20MHz-1MHz Dual-Loop Non-Uniform-Multi-Inductor Hybrid DC-DC
         Converter with Specified Inductor Current Allocation and Fast Transient
-        Response," in IEEE Int. Solid-State Circuits Conf. (ISSCC), Feb 2025.
+        Response," ISSCC 2025.
       tags: [highlight]
 
     - id: "C2"
       text: >-
-        J. Huang, Z. Tong, X. Mao, C. -S. Lam, R. P. Martins and Y. Lu,
+        J. Huang, Z. Tong, X. Mao, C.-S. Lam, R. P. Martins, Y. Lu,
         "A Fast-Slow Two-Module DC-DC Solution with Transient and Efficiency
-        Improvements for 2.5D/3D Integration," 2024 IEEE Custom Integrated
-        Circuits Conference (CICC), Apr. 2024.
+        Improvements for 2.5D/3D Integration," CICC 2024.
 
     - id: "C3"
       text: >-
-        J. Huang, Z. Tong, Y. Lu, C. -S. Lam, R. P. Martins, "A 5V-to-0.5V
+        J. Huang, Z. Tong, Y. Lu, C.-S. Lam, R. P. Martins, "A 5V-to-0.5V
         Inductor-First Inductor-on-Ground Switched Capacitor Multi-Path Hybrid
-        DC-DC Converter," 2023 IEEE Custom Integrated Circuits Conf. (CICC),
-        Apr. 2023.
+        DC-DC Converter," CICC 2023.
 
     - id: "C4"
       text: >-
-        J. Huang, X. Mao, Z. Tong, Z. Yu, S. Han, C. -S. Lam, R. P. Martins,
+        J. Huang, X. Mao, Z. Tong, Z. Yu, S. Han, C.-S. Lam, R. P. Martins,
         Y. Lu, "A Scalable Distributed 12-to-1V Fast-Slow Hybrid DC-DC Combo
-        with Fast-Transient Bucklets and One-Pin Current Balancing," 2026 IEEE
-        Custom Integrated Circuits Conf. (CICC), Apr. 2026.
+        with Fast-Transient Bucklets and One-Pin Current Balancing," CICC 2026.
       tags: [accepted]
 
     - id: "C5"
       text: >-
         Z. Tong, J. Huang, Y. Lu, R. P. Martins, "A 42W Reconfigurable
-        Bidirectional Power Delivery Voltage-Regulating Cable," in IEEE Int.
-        Solid-State Circuits Conf. (ISSCC), Feb 2023.
+        Bidirectional Power Delivery Voltage-Regulating Cable," ISSCC 2023.
       tags: [highlight]
 
     - id: "C6"
       text: >-
         Z. Zhu, J. Huang, Z. Song, Z. Yu, S. Han, S-W. Sin, Y. Lu, "An
         Inductor-at-Middle Hybrid Buck Converter with Shared Power-Signal Path
-        for Distributed Vertical Power Delivery," in IEEE Int. Solid-State
-        Circuits Conf. (ISSCC), Feb 2026.
+        for Distributed Vertical Power Delivery," ISSCC 2026.
 
     - id: "C7"
       text: >-
         Z. Yu, Z. Tong, J. Huang, J. Yin, Y. Lu, "A Compact Dual-Capacitor
         Relay SPT Supply Modulator with Overshoot-Free Adaptive On-Time Control
-        for 5G FR2 CMOS PA," in IEEE Int. Solid-State Circuits Conf. (ISSCC),
-        Feb 2026.
+        for 5G FR2 CMOS PA," ISSCC 2026.
 
     - id: "C8"
       text: >-
-        Z. Tong, Z. Yu, J. Huang, X. Mao, Bernhard Wicht, Rui P. Martins,
-        Yan Lu, "HOOP: A Scalable Hybrid DC-DC Converter Ring for High
-        Performance Computing," in IEEE Int. Solid-State Circuits Conf. (ISSCC),
-        Feb 2025.
+        Z. Tong, Z. Yu, J. Huang, X. Mao, B. Wicht, R. P. Martins, Y. Lu,
+        "HOOP: A Scalable Hybrid DC-DC Converter Ring for High Performance
+        Computing," ISSCC 2025.
 
     - id: "C9"
       text: >-
         W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu, "A Bi-Directional
         Dual-Path Boost-48V-Buck Hybrid Converter for High-Voltage Power
-        Transmission Cable in Light-Weight Humanoid Robots," in IEEE Int.
-        Solid-State Circuits Conf. (ISSCC), Feb 2025.
+        Transmission Cable in Light-Weight Humanoid Robots," ISSCC 2025.
 
     - id: "C10"
       text: >-
         Z. Yu, J. Huang, Z. Tong, Z. Zhu, Y. Lu, "An Output-Rail-Scalable
         Hybrid Buck Converter with Globally Adaptive Frequency Control Achieving
-        98.0% Peak Efficiency and 490 mW/mm3 Power Density," 2026 IEEE Custom
-        Integrated Circuits Conf. (CICC), Apr. 2026.
+        98.0% Peak Efficiency and 490 mW/mm3 Power Density," CICC 2026.
       tags: [accepted]
 
     - id: "C11"
       text: >-
         S. Han, J. Huang, F. Song, Z. Tong, S-W Sin, H. Jiang, X. Wu, T. Ren,
         Y. Lu, "A 94.1% Peak Efficiency Coupled-Inductor Boost Converter with
-        Small Inductor Current Ripple and Fast Transient Response," 2026 IEEE
-        Custom Integrated Circuits Conf. (CICC), Apr. 2026.
+        Small Inductor Current Ripple and Fast Transient Response," CICC 2026.
       tags: [accepted]
 
     - id: "C12"
       text: >-
         Z. Song, Z. Tong, J. Huang, Z. Zhu, S-W Sin, Y. Lu, "A 6V-to-1V
         ReSC-Hybrid Two-Stage Merged Buck Converter with an Ultra-Small Inductor
-        for VPD," 2026 IEEE Custom Integrated Circuits Conf. (CICC), Apr. 2026.
+        for VPD," CICC 2026.
       tags: [accepted]
 
     - id: "C13"
       text: >-
-        X. Mao, J. Huang, Z. Tong, R. P. Martins and Y. Lu, "A Quad-Output
+        X. Mao, J. Huang, Z. Tong, R. P. Martins, Y. Lu, "A Quad-Output
         Hybrid Buck Converter with 8-Inductor Helping One Spot from All Quarters
-        for Multi-Core XPUs," 2024 IEEE Custom Integrated Circuits Conf. (CICC),
-        Apr. 2024.
+        for Multi-Core XPUs," CICC 2024.
 
     - id: "C14"
       text: >-
         Z. Tong, W. Yang, S. Han, J. Huang, X. Mao, Y. Lu, "Where is the
         Inductor: A Review and Comparison of the Hybrid DC-DC Buck Topologies,"
-        2025 IEEE Custom Integrated Circuits Conf. (CICC), April 2025.
+        CICC 2025.
 
     - id: "C15"
       text: >-
-        Z. Yu, J. Huang, Z. Tong, M. Huang and Y. Lu, "An Always Dual-Path
+        Z. Yu, J. Huang, Z. Tong, M. Huang, Y. Lu, "An Always Dual-Path
         Hybrid DC-DC Converter with Multiphase Interleaving Switched-Capacitor
-        Cell Obtaining 45% Output Ripple Reduction," IEEE International Symposium
-        on Circuits and Systems (ISCAS), May 2025.
+        Cell Obtaining 45% Output Ripple Reduction," ISCAS 2025.
 
     - id: "C16"
       text: >-
-        F. Luo, J. Huang, M. Huang and Y. Lu, "A 12V-Input 1.8V-0.8V-Output
+        F. Luo, J. Huang, M. Huang, Y. Lu, "A 12V-Input 1.8V-0.8V-Output
         Multiple-Output Hybrid Buck DC-DC Converter with a Shared Flying
-        Capacitor," IEEE International Symposium on Circuits and Systems (ISCAS),
-        May 2025.
+        Capacitor," ISCAS 2025.
 
     - id: "C17"
       text: >-
-        Y. Hu, J. Huang, M. Huang and Y. Lu, "A 5V-to-0.8V Inductor-First
-        2L2C Multi-Path Hybrid DC-DC Converter," IEEE International Symposium on
-        Circuits and Systems (ISCAS), May 2025.
+        Y. Hu, J. Huang, M. Huang, Y. Lu, "A 5V-to-0.8V Inductor-First
+        2L2C Multi-Path Hybrid DC-DC Converter," ISCAS 2025.
 
   journal:
     - id: "J1"
       text: >-
-        J. Huang, Z. Tong, X. Mao, C. -S. Lam, R. P. Martins and Y. Lu,
+        J. Huang, Z. Tong, X. Mao, C.-S. Lam, R. P. Martins, Y. Lu,
         "A Fast-Slow Two-Module High-Power-Density DC-DC Solution With Transient
-        and Efficiency Improvements," in IEEE Journal of Solid-State Circuits
-        (JSSC), 2025.
+        and Efficiency Improvements," IEEE JSSC, 2025.
 
     - id: "J2"
       text: >-
-        J. Huang, Z. Tong, C. -S. Lam, X. Mao, R. P. Martins, Y. Lu, "A
+        J. Huang, Z. Tong, C.-S. Lam, X. Mao, R. P. Martins, Y. Lu, "A
         Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid
-        DC-DC Converter," in IEEE Journal of Solid-State Circuits (JSSC), 2024.
+        DC-DC Converter," IEEE JSSC, 2024.
 
     - id: "J3"
       text: >-
-        J. Huang, C. -S. Lam, Y. Lu and R. P. Martins, "A Symmetrical Double
-        Step-Down Converter with Extended Voltage Conversion Ratio," in IEEE
-        Trans. Circuits Syst. I: Regular Papers (TCAS-I), 2022.
+        J. Huang, C.-S. Lam, Y. Lu, R. P. Martins, "A Symmetrical Double
+        Step-Down Converter with Extended Voltage Conversion Ratio," IEEE
+        TCAS-I, 2022.
 
     - id: "J4"
       text: >-
-        Z. Tong, J. Huang, X. Mao, R. P. Martins and Y. Lu, "A Double Pulse
+        Z. Tong, J. Huang, X. Mao, R. P. Martins, Y. Lu, "A Double Pulse
         Overlapping Laser Diode Driver with Minimum 100-ps Pulse for LiDAR
-        System," in IEEE Journal of Solid-State Circuits (JSSC), 2024.
+        System," IEEE JSSC, 2024.
 
     - id: "J5"
       text: >-
-        Z. Tong, J. Huang, X. Mao, R. P. Martins and Y. Lu, "A Bidirectional
-        USB Power Delivery Voltage-Regulating Cable," in IEEE Journal of
-        Solid-State Circuits (JSSC), 2024.
+        Z. Tong, J. Huang, X. Mao, R. P. Martins, Y. Lu, "A Bidirectional
+        USB Power Delivery Voltage-Regulating Cable," IEEE JSSC, 2024.
 
     - id: "J6"
       text: >-
-        W. Yang, Z. Tong, J. Huang, R. P. Martins and Y. Lu, "A Bi-Directional
+        W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu, "A Bi-Directional
         Dual-Path Boost-Buck Hybrid Converter for High-Voltage Power Transmission
-        Delivery Cable in Humanoid Robots," in IEEE Journal of Solid-State
-        Circuits (JSSC), 2025.
+        Delivery Cable in Humanoid Robots," IEEE JSSC, 2025.
 
     - id: "J7"
       text: >-
-        Y. Lu, J. Huang, Z. Tong, T. Hu, W.-L. Zeng, M. Huang, X. Mao and
-        G. Cai, "An Overview of Hybrid DC-DC Converters: From Seeds to Leaves,"
-        in IEEE Open Journal of the Solid-State Circuits Society (OJ-SSCS), 2024.
+        Y. Lu, J. Huang, Z. Tong, T. Hu, W.-L. Zeng, M. Huang, X. Mao, G. Cai,
+        "An Overview of Hybrid DC-DC Converters: From Seeds to Leaves," IEEE
+        OJ-SSCS, 2024.
 
     - id: "J8"
       text: >-
-        Y. Lu, G. Cai, and J. Huang, "Favorable basic cells for hybrid DC-DC
-        converters," Journal of Semiconductors (JOS), 2023.
+        Y. Lu, G. Cai, J. Huang, "Favorable basic cells for hybrid DC-DC
+        converters," J. Semiconductors, 2023.
