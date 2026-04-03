@@ -15,8 +15,10 @@ contact:
   photo: "images/bio.png"
 
 research_interests: >-
-  Power management ICs (PMICs); high current density; fast transient
-  response; chiplet/vertical power delivery
+  Integrated voltage regulators (IVR); hybrid switched-capacitor/inductor
+  DC-DC converters; high-conversion-ratio power delivery; fast transient
+  response; vertical power delivery; scalable multi-module power systems;
+  chiplet/Power Chiplet architectures
 
 # ── Education ──────────────────────────────────────────────
 education:
@@ -55,39 +57,71 @@ appointments:
     institution: "University of Macau"
     department: "Institute of Microelectronics"
     title: "Research Assistant"
-    note: "PI: Prof. Rui. P Martins"
+    note: "PI: Prof. Rui P. Martins"
 
 # ── Research Summary ───────────────────────────────────────
 research_summary:
-  - affiliation: "University of Macau, State Key Laboratory of Analog and Mixed-Signal VLSI"
-    period: "2018.08–present"
-    bullets:
-      - >-
-        My research focuses on the design of power management chips with
-        high current density and fast transient response. To date, I have
-        published 25 papers in international conferences and journals,
-        including 17 conference papers at ISSCC (1 highlight paper as first
-        author), CICC (3 paper as first author), and ISCAS, and 8 journals
-        in JSSC (2 as first author), TCAS-I (1 as first author), OJ-SSCS,
-        and JOS
-      - >-
-        I was invited to present at an IEEE PES/PELS event held at UC
-        Berkeley, recognized for expertise in PMIC design.
-
   - affiliation: "University of California, Berkeley, EECS"
     period: "2025.09–present"
     bullets:
       - >-
-        My research focuses on the co-design of board-level power
-        electronics and on-interposer high-voltage integrated voltage
-        regulators (HV IVR, >6V input) for next-generation GPU/CPU
-        power delivery, leveraging hybrid switched-capacitor/inductor
-        converter topologies and scalable distributed converter arrays.
+        Research focuses on the co-design of board-level power electronics
+        and on-interposer high-voltage integrated voltage regulators
+        (HV-IVR, >6 V input) for next-generation GPU/CPU power delivery,
+        leveraging hybrid switched-capacitor/inductor converter topologies
+        and scalable distributed converter arrays to achieve high aggregate
+        current, high current density (targeting >3.0 A/mm²), and high
+        power density at switching frequencies >20 MHz.
+
+  - affiliation: "University of Macau, State Key Laboratory of Analog and Mixed-Signal VLSI"
+    period: "2018.08–2025.09"
+    bullets:
+      - >-
+        Designed and taped out 7 chips in 65 nm CMOS and 180 nm BCD
+        processes, covering the full IC design cycle from topology
+        innovation, circuit/layout implementation, to silicon measurement.
+      - >-
+        Demonstrated state-of-the-art efficiency (96.1% at 4-to-1.2 V),
+        current density (1.46 A/mm² at 12:1), and transient response
+        (63 mV droop @ 3.5 A load step) across hybrid converters with
+        conversion ratios from 4:1 to 12:1.
+      - >-
+        Pioneered a scalable multi-module parallel architecture with
+        one-pin decentralized current balancing, reducing interconnect
+        complexity from O(N) to O(1) — directly applicable to IVR arrays
+        and vertical power delivery.
+      - >-
+        27 publications: 1 ISSCC highlight paper (1st author), 3 CICC
+        1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author.
+        Total: 6 ISSCC + 6 JSSC contributions.
+
+# ── Technical Skills ───────────────────────────────────────
+skills:
+  - category: "IC Design"
+    details: >-
+      Full-custom analog/mixed-signal IC design (schematic, layout,
+      DRC/LVS, post-layout simulation, tape-out, lab measurement);
+      switched-capacitor and hybrid DC-DC converter topologies;
+      multi-loop control design; power stage optimization
+  - category: "Process Technologies"
+    details: "65 nm CMOS, 180 nm BCD (high-voltage NMOS/PMOS)"
+  - category: "EDA Tools"
+    details: >-
+      Cadence Virtuoso (Spectre, Layout XL), Synopsys HSPICE,
+      Ansys (HFSS/Maxwell), MATLAB/Simulink, LTspice,
+      Altium Designer (PCB)
+  - category: "Lab Equipment"
+    details: >-
+      Oscilloscopes, spectrum analyzers, semiconductor parameter
+      analyzers, probe stations; board-level power converter testing
+  - category: "Programming"
+    details: "SKILL (Cadence), Python, MATLAB, Verilog (digital control blocks)"
 
 # ── Awards & Service ───────────────────────────────────────
 awards:
   - "Akrostar Technology Academic Prize for the academic year 2023/2024 (Top 3)."
-  - "Reviewer for IEEE Transactions on Industrial Electronics, IEEE Transactions on Circuits and Systems II."
+  - "Reviewer for IEEE TIE, IEEE OJIE, IEEE TCAS-I, IEEE TCAS-II, IEEE OJCAS."
+  - "Invited presenter at IEEE PES/PELS event at UC Berkeley."
 
 # ── Publications ───────────────────────────────────────────
 publications:
@@ -131,14 +165,14 @@ publications:
 
     - id: "C6"
       text: >-
-        Z. Zhu, J. Huang, Z. Song, Z. Yu, S. Han, S-W. Sin, Y. Lu "An
+        Z. Zhu, J. Huang, Z. Song, Z. Yu, S. Han, S-W. Sin, Y. Lu, "An
         Inductor-at-Middle Hybrid Buck Converter with Shared Power-Signal Path
         for Distributed Vertical Power Delivery," in IEEE Int. Solid-State
         Circuits Conf. (ISSCC), Feb 2026.
 
     - id: "C7"
       text: >-
-        Z. Yu, Z. Tong, J. Huang, J. Yin, Y. Lu "A Compact Dual-Capacitor
+        Z. Yu, Z. Tong, J. Huang, J. Yin, Y. Lu, "A Compact Dual-Capacitor
         Relay SPT Supply Modulator with Overshoot-Free Adaptive On-Time Control
         for 5G FR2 CMOS PA," in IEEE Int. Solid-State Circuits Conf. (ISSCC),
         Feb 2026.
@@ -154,7 +188,7 @@ publications:
       text: >-
         W. Yang, Z. Tong, J. Huang, R. P. Martins, Y. Lu, "A Bi-Directional
         Dual-Path Boost-48V-Buck Hybrid Converter for High-Voltage Power
-        Transmission Cable in Light-Weight Humanoid Robots" in IEEE Int.
+        Transmission Cable in Light-Weight Humanoid Robots," in IEEE Int.
         Solid-State Circuits Conf. (ISSCC), Feb 2025.
 
     - id: "C10"
@@ -218,14 +252,14 @@ publications:
       text: >-
         J. Huang, Z. Tong, X. Mao, C. -S. Lam, R. P. Martins and Y. Lu,
         "A Fast-Slow Two-Module High-Power-Density DC-DC Solution With Transient
-        and Efficiency Improvements," in IEEE Journal of Solid-State Circuit
+        and Efficiency Improvements," in IEEE Journal of Solid-State Circuits
         (JSSC), 2025.
 
     - id: "J2"
       text: >-
         J. Huang, Z. Tong, C. -S. Lam, X. Mao, R. P. Martins, Y. Lu, "A
         Multi-Path Inductor-First Inductor-on-Ground Switched-Capacitor Hybrid
-        DC-DC Converter," in IEEE Journal of Solid-State Circuit (JSSC), 2024.
+        DC-DC Converter," in IEEE Journal of Solid-State Circuits (JSSC), 2024.
 
     - id: "J3"
       text: >-
@@ -237,28 +271,28 @@ publications:
       text: >-
         Z. Tong, J. Huang, X. Mao, R. P. Martins and Y. Lu, "A Double Pulse
         Overlapping Laser Diode Driver with Minimum 100-ps Pulse for LiDAR
-        System", in IEEE Journal of the Solid-State Circuits (JSSC), 2024.
+        System," in IEEE Journal of Solid-State Circuits (JSSC), 2024.
 
     - id: "J5"
       text: >-
         Z. Tong, J. Huang, X. Mao, R. P. Martins and Y. Lu, "A Bidirectional
-        USB Power Delivery Voltage-Regulating Cable", in IEEE Journal of the
+        USB Power Delivery Voltage-Regulating Cable," in IEEE Journal of
         Solid-State Circuits (JSSC), 2024.
 
     - id: "J6"
       text: >-
         W. Yang, Z. Tong, J. Huang, R. P. Martins and Y. Lu, "A Bi-Directional
         Dual-Path Boost-Buck Hybrid Converter for High-Voltage Power Transmission
-        Delivery Cable in Humanoid Robots," in IEEE Journal of the Solid-State
+        Delivery Cable in Humanoid Robots," in IEEE Journal of Solid-State
         Circuits (JSSC), 2025.
 
     - id: "J7"
       text: >-
         Y. Lu, J. Huang, Z. Tong, T. Hu, W.-L. Zeng, M. Huang, X. Mao and
         G. Cai, "An Overview of Hybrid DC-DC Converters: From Seeds to Leaves,"
-        in IEEE Open Journal of the Solid-State Circuits Society (OJSSC), 2024.
+        in IEEE Open Journal of the Solid-State Circuits Society (OJ-SSCS), 2024.
 
     - id: "J8"
       text: >-
-        Y. Lu, G. Cai, and J. Huang, Favorable basic cells for hybrid DC-DC
-        converters[J]. Journal of Semiconductors (JOS). 2023.
+        Y. Lu, G. Cai, and J. Huang, "Favorable basic cells for hybrid DC-DC
+        converters," Journal of Semiconductors (JOS), 2023.
