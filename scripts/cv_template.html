@@ -69,6 +69,11 @@
   .bullet { margin-left: 16pt; text-indent: -10pt; padding-left: 10pt; margin-bottom: 3pt; text-align: justify; }
   .bullet::before { content: "● "; font-size: 7pt; vertical-align: middle; }
 
+  /* ── Technical Skills ───────────────────────── */
+  .skill-item { margin-left: 16pt; text-indent: -10pt; padding-left: 10pt; margin-bottom: 3pt; text-align: justify; }
+  .skill-item::before { content: "● "; font-size: 7pt; vertical-align: middle; }
+  .skill-cat { font-weight: bold; }
+
   /* ── Awards ─────────────────────────────────── */
   .award-item { margin-left: 16pt; margin-bottom: 2pt; }
 
@@ -88,6 +93,11 @@
     font-size: 10pt;
     font-style: italic;
     margin-left: 2pt;
+  }
+  .pub-note {
+    font-size: 9pt;
+    color: #444;
+    font-style: italic;
   }
   .author-me { font-weight: bold; }
 </style>
@@ -150,6 +160,14 @@
 </div>
 {% endfor %}
 
+<!-- ═══════ TECHNICAL SKILLS ═══════ -->
+{% if cv.skills %}
+<div class="section-title">Technical Skills</div>
+{% for s in cv.skills %}
+<div class="skill-item"><span class="skill-cat">{{ s.category }}:</span> {{ s.details }}</div>
+{% endfor %}
+{% endif %}
+
 <!-- ═══════ AWARDS ═══════ -->
 <div class="section-title">Awards and Academic Service</div>
 {% for a in cv.awards %}
@@ -157,10 +175,30 @@
 {% endfor %}
 
 <!-- ═══════ PUBLICATIONS ═══════ -->
-<div class="section-title">Research Work and Publications</div>
+<div class="section-title">Publications</div>
 
-<div class="pub-sub">Conference:</div>
-{% for p in cv.publications.conference %}
+<div class="pub-sub">First-Author Conference Papers:</div>
+{% for p in cv.publications.conference if p.first_author %}
+<div class="pub-item">
+  <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
+  {% if 'highlight' in (p.tags or []) %}<span class="tag">(Highlight Paper)</span>{% endif %}
+  {% if 'accepted' in (p.tags or []) %}<span class="tag">(Accepted)</span>{% endif %}
+  {% if p.note %}<span class="pub-note"> [{{ p.note }}]</span>{% endif %}
+</div>
+{% endfor %}
+
+<div class="pub-sub">First-Author Journal Papers:</div>
+{% for p in cv.publications.journal if p.first_author %}
+<div class="pub-item">
+  <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
+  {% if 'highlight' in (p.tags or []) %}<span class="tag">(Highlight Paper)</span>{% endif %}
+  {% if 'accepted' in (p.tags or []) %}<span class="tag">(Accepted)</span>{% endif %}
+  {% if p.note %}<span class="pub-note"> [{{ p.note }}]</span>{% endif %}
+</div>
+{% endfor %}
+
+<div class="pub-sub">Co-Authored Conference Papers:</div>
+{% for p in cv.publications.conference if not p.first_author %}
 <div class="pub-item">
   <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
   {% if 'highlight' in (p.tags or []) %}<span class="tag">(Highlight Paper)</span>{% endif %}
@@ -168,8 +206,8 @@
 </div>
 {% endfor %}
 
-<div class="pub-sub">Journal:</div>
-{% for p in cv.publications.journal %}
+<div class="pub-sub">Co-Authored Journal Papers:</div>
+{% for p in cv.publications.journal if not p.first_author %}
 <div class="pub-item">
   <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
   {% if 'highlight' in (p.tags or []) %}<span class="tag">(Highlight Paper)</span>{% endif %}
