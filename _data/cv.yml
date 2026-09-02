@@ -73,7 +73,7 @@ research_summary:
         current, high current density, and high power density.
 
   - affiliation: "University of Macau, State Key Laboratory of Analog and Mixed-Signal VLSI"
-    period: "2018.08–2025.09"
+    period: "2018.08–2025.10"
     bullets:
       - >-
         Designed and taped out multiple hybrid SC/inductor DC-DC converters
@@ -88,12 +88,12 @@ research_summary:
       - >-
         Pioneered a scalable multi-module parallel architecture with
         one-pin decentralized current balancing, reducing interconnect
-        complexity from O(N) to O(1) — directly applicable to IVR arrays
+        complexity from O(N) to O(1), directly applicable to IVR arrays
         and vertical power delivery.
       - >-
         25 publications: 1 ISSCC highlight paper (1st author), 3 CICC
         1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author.
-        Total: 6 ISSCC + 6 JSSC contributions.
+        Total: 6 ISSCC + 5 JSSC contributions.
 
 # ── Technical Skills ───────────────────────────────────────
 skills:
@@ -119,8 +119,9 @@ skills:
 
 # ── Awards & Service ───────────────────────────────────────
 awards:
+  - "PwrSoC 2023 Best Student Poster Award, International Workshop on Power Supply on Chip."
   - "Akrostar Technology Academic Prize for the academic year 2023/2024 (Top 3)."
-  - "Reviewer for IEEE TIE, IEEE OJIE, IEEE TCAS-I, IEEE TCAS-II, IEEE OJCAS."
+  - "Reviewer for IEEE JSSC, IEEE TIE, IEEE OJIE, IEEE TCAS-I, IEEE TCAS-II, IEEE OJCAS."
   - "Invited presenter at IEEE PES/PELS event at UC Berkeley."
 
 # ── Publications ───────────────────────────────────────────
