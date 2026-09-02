@@ -64,13 +64,13 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 ## Academic Appointments
 
-- **Visiting Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2025.09–present  
+- **Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2025.09–present  
   Faculty Host: Prof. Robert Pilawa-Podgurski
 
-- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI, [University of Macau](https://www.um.edu.mo/) · 2025.09–present  
+- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI, [University of Macau](https://www.um.edu.mo/) · 2025.10–present  
   PIs: Prof. Rui P. Martins and Prof. Sai-Weng Sin
 
-- **Research Assistant**, Institute of Microelectronics (IME), [University of Macau](https://www.um.edu.mo/) · 2024.10–2025.09  
+- **Research Assistant**, Institute of Microelectronics (IME), [University of Macau](https://www.um.edu.mo/) · 2024.10–2025.10  
   PI: Prof. Rui P. Martins
 
 - **Visiting Scholar**, Department of Electronic Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/) · 2024.11–2025.05  
