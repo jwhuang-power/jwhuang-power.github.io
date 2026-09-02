@@ -15,7 +15,7 @@ redirect_from:
 
 Hi! My name is Junwei Huang — a Postdoctoral Researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa-group.berkeley.edu/people/). I received my Ph.D. from the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://rto.um.edu.mo/prof-rui-paulo-da-silva-martins/) and [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (now at Tsinghua University).
 
-My research interests focus on **integrated voltage regulators (IVRs)** and **power management ICs (PMICs)** — particularly hybrid switched-capacitor/inductor DC-DC converters, high-conversion-ratio power delivery, fast transient response, vertical/chiplet power delivery, and scalable multi-module power systems.
+My research focuses on **power delivery for AI and high-performance computing**, spanning **board-level voltage regulator modules (VRMs)** and **in-package integrated voltage regulators (IVRs)**, with an emphasis on co-designing the two. Specific topics include hybrid switched-capacitor/inductor DC-DC converters, high-conversion-ratio power delivery, fast transient response, vertical and chiplet power delivery, package-embedded passives, and scalable multi-module power systems.
 
 You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
