@@ -21,6 +21,18 @@ You can find my [CV](/files/CV_Junwei_Huang.pdf) here.
 
 ---
 
+## Research Overview
+
+<p align="center">
+  <img src="/images/research_summary.png" alt="Research overview: high-performance power management ICs for AI computing" style="max-width:100%;">
+</p>
+
+<p style="text-align:center; font-size:0.9em; color:#666;">
+From wearables to AI data centers, five silicon-proven designs address the joint optimization of efficiency, density, transient speed, conversion-ratio range, and scalability.
+</p>
+
+---
+
 ## Research Highlights
 
 <div class="chip-gallery">
