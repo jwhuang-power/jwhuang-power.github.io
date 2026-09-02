@@ -39,11 +39,11 @@ From wearables to AI data centers, five silicon-proven designs address the joint
   <div class="chip-row chip-row-top">
     <div class="chip-card">
       <img src="/images/chip_one_pin.jpg" alt="One-Pin Array Chip">
-      <p class="chip-caption"><strong>①</strong> 12-to-1V Distributed Converter Array with One-Pin Current Balancing<br><span class="chip-venue">CICC 2026 · 180nm BCD & 65nm CMOS</span></p>
+      <p class="chip-caption"><strong>⑤</strong> 12-to-1V Distributed Converter Array with One-Pin Current Balancing<br><span class="chip-venue">CICC 2026 · 180nm BCD & 65nm CMOS</span></p>
     </div>
     <div class="chip-card">
       <img src="/images/chip_dual_loop.jpg" alt="Dual-Loop Chip">
-      <p class="chip-caption"><strong>②</strong> 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid Converter<br><span class="chip-venue">ISSCC 2025 Highlight · 180nm BCD</span></p>
+      <p class="chip-caption"><strong>④</strong> 20MHz-1MHz Dual-Loop NonUniform-Multi-Inductor Hybrid Converter<br><span class="chip-venue">ISSCC 2025 Highlight · 180nm BCD</span></p>
     </div>
   </div>
   <div class="chip-row chip-row-bottom">
@@ -53,11 +53,11 @@ From wearables to AI data centers, five silicon-proven designs address the joint
     </div>
     <div class="chip-card">
       <img src="/images/chip_inductor_first.jpg" alt="Inductor-First Chip">
-      <p class="chip-caption"><strong>④</strong> Multi-Path Inductor-First Inductor-on-Ground Hybrid Converter<br><span class="chip-venue">CICC 2023 / JSSC 2024 · 180nm BCD</span></p>
+      <p class="chip-caption"><strong>②</strong> Multi-Path Inductor-First Inductor-on-Ground Hybrid Converter<br><span class="chip-venue">CICC 2023 / JSSC 2024 · 180nm BCD</span></p>
     </div>
     <div class="chip-card">
       <img src="/images/chip_sdsd.jpg" alt="SDSD Chip">
-      <p class="chip-caption"><strong>⑤</strong> Symmetrical Double Step-Down Converter with Extended VCR<br><span class="chip-venue">TCAS-I 2022 · 65nm CMOS</span></p>
+      <p class="chip-caption"><strong>①</strong> Symmetrical Double Step-Down Converter with Extended VCR<br><span class="chip-venue">TCAS-I 2022 · 65nm CMOS</span></p>
     </div>
   </div>
 </div>
