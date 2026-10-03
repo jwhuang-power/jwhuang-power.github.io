@@ -35,13 +35,19 @@ education:
 
 # ── Academic Appointments ──────────────────────────────────
 appointments:
-  - period: "2025.09–present"
+  - period: "2026.10–present"
     institution: "University of California, Berkeley"
     department: "Department of Electrical Engineering and Computer Sciences (EECS)"
     title: "Postdoctoral Researcher"
+    note: "PI: Prof. Robert Pilawa-Podgurski"
+
+  - period: "2025.09–2026.10"
+    institution: "University of California, Berkeley"
+    department: "Department of Electrical Engineering and Computer Sciences (EECS)"
+    title: "Visiting Postdoctoral Researcher"
     note: "Faculty Host: Prof. Robert Pilawa-Podgurski"
 
-  - period: "2025.10–present"
+  - period: "2025.10–2026.10"
     institution: "University of Macau"
     department: "Institute of Microelectronics"
     title: "Postdoctoral Fellow"
@@ -73,7 +79,7 @@ research_summary:
         current, high current density, and high power density.
 
   - affiliation: "University of Macau, State Key Laboratory of Analog and Mixed-Signal VLSI"
-    period: "2018.08–2025.10"
+    period: "2018.08–2025.09"
     bullets:
       - >-
         Designed and taped out multiple hybrid SC/inductor DC-DC converters

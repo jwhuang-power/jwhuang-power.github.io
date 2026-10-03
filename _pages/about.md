@@ -13,7 +13,7 @@ redirect_from:
 
 ## Welcome to Junwei Huang's Homepage
 
-Hi! My name is Junwei Huang — a Postdoctoral Researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa-group.berkeley.edu/people/). I received my Ph.D. from the Institute of Microelectronics, University of Macau, advised by [Prof. Rui P. Martins](https://rto.um.edu.mo/prof-rui-paulo-da-silva-martins/) and [Prof. Yan Lu](https://web.ee.tsinghua.edu.cn/luyan/en/index.htm) (now at Tsinghua University).
+Hi! I am Junwei Huang, a Postdoctoral Researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa-group.berkeley.edu/people/).
 
 My research focuses on **power delivery for AI and high-performance computing**, spanning **board-level voltage regulator modules (VRMs)** and **in-package integrated voltage regulators (IVRs)**, with an emphasis on co-designing the two. Specific topics include hybrid switched-capacitor/inductor DC-DC converters, high-conversion-ratio power delivery, fast transient response, vertical and chiplet power delivery, package-embedded passives, and scalable multi-module power systems.
 
@@ -76,10 +76,13 @@ From wearables to AI data centers, five silicon-proven designs address the joint
 
 ## Academic Appointments
 
-- **Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2025.09–present  
+- **Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2026.10–present  
+  PI: Prof. Robert Pilawa-Podgurski
+
+- **Visiting Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2025.09–2026.10  
   Faculty Host: Prof. Robert Pilawa-Podgurski
 
-- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI, [University of Macau](https://www.um.edu.mo/) · 2025.10–present  
+- **Postdoctoral Fellow**, Institute of Microelectronics (IME) & State Key Laboratory of Analog and Mixed-Signal VLSI, [University of Macau](https://www.um.edu.mo/) · 2025.10–2026.10  
   PIs: Prof. Rui P. Martins and Prof. Sai-Weng Sin
 
 - **Research Assistant**, Institute of Microelectronics (IME), [University of Macau](https://www.um.edu.mo/) · 2024.10–2025.10  
@@ -101,7 +104,7 @@ Research focuses on the co-design of board-level power electronics and on-interp
 - Designed and taped out multiple **hybrid SC/inductor DC-DC converters in 65 nm CMOS and 180 nm BCD** processes, covering the full IC design cycle from topology innovation, circuit/layout implementation, to silicon measurement.
 - Demonstrated state-of-the-art **efficiency (96.1% at 4-to-1.2 V)**, **current density (1.46 A/mm² at 12:1)**, and **transient response (63 mV droop @ 3.5 A load step)** across hybrid converters with conversion ratios from 4:1 to 12:1.
 - Pioneered a scalable multi-module parallel architecture with **one-pin decentralized current balancing**, reducing interconnect complexity from O(N) to O(1) — directly applicable to IVR arrays and vertical power delivery.
-- **25 publications**: 1 ISSCC highlight paper (1st author), 3 CICC 1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author. Total: 6 ISSCC + 6 JSSC contributions.
+- **25 publications**: 1 ISSCC highlight paper (1st author), 3 CICC 1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author. Total: 6 ISSCC + 5 JSSC contributions.
 
 ---
 
@@ -118,5 +121,5 @@ Research focuses on the co-design of board-level power electronics and on-interp
 ## Awards & Service
 
 1. Akrostar Technology Academic Prize for the academic year 2023/2024 (Top 3)
-2. Reviewer for IEEE TIE, IEEE OJIE, IEEE TCAS-I, IEEE TCAS-II, IEEE OJCAS
+2. Reviewer for IEEE JSSC, IEEE TIE, IEEE OJIE, IEEE TCAS-I, IEEE TCAS-II, IEEE OJCAS
 3. Invited presenter at IEEE PES/PELS event at UC Berkeley
