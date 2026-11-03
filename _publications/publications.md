@@ -11,7 +11,7 @@ toc_label: "On this page"
 
 <div class="pub-banner">
   <h3>Research Direction: High Performance Power Management Solution</h3>
-  <p class="headline">Published &amp; accepted <span>28 papers</span>, including <span>7 as first-author</span></p>
+  <p class="headline">Published &amp; accepted <span>26 papers</span>, including <span>7 as first-author</span></p>
   <table class="pub-table">
     <tr>
       <th>Journal / Conference</th>
