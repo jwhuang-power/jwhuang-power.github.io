@@ -104,7 +104,7 @@ Research focuses on the co-design of board-level power electronics and on-interp
 - Designed and taped out multiple **hybrid SC/inductor DC-DC converters in 65 nm CMOS and 180 nm BCD** processes, covering the full IC design cycle from topology innovation, circuit/layout implementation, to silicon measurement.
 - Demonstrated state-of-the-art **efficiency (96.1% at 4-to-1.2 V)**, **current density (1.46 A/mm² at 12:1)**, and **transient response (63 mV droop @ 3.5 A load step)** across hybrid converters with conversion ratios from 4:1 to 12:1.
 - Pioneered a scalable multi-module parallel architecture with **one-pin decentralized current balancing**, reducing interconnect complexity from O(N) to O(1) — directly applicable to IVR arrays and vertical power delivery.
-- **25 publications**: 1 ISSCC highlight paper (1st author), 3 CICC 1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author. Total: 6 ISSCC + 5 JSSC contributions.
+- **26 publications**: 1 ISSCC highlight paper (1st author), 3 CICC 1st-author, 2 JSSC 1st-author, 1 TCAS-I 1st-author. Total: 6 ISSCC + 6 JSSC contributions.
 
 ---
 

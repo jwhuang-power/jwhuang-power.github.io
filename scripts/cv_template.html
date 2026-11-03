@@ -215,5 +215,14 @@
 </div>
 {% endfor %}
 
+{% if cv.publications.under_review %}
+<div class="pub-sub">Under Review:</div>
+{% for p in cv.publications.under_review %}
+<div class="pub-item">
+  <span class="pub-id">[{{ p.id }}]</span> {{ p.text | bold_author }}
+</div>
+{% endfor %}
+{% endif %}
+
 </body>
 </html>

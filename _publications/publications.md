@@ -11,7 +11,7 @@ toc_label: "On this page"
 
 <div class="pub-banner">
   <h3>Research Direction: High Performance Power Management Solution</h3>
-  <p class="headline">Published &amp; accepted <span>27 papers</span>, including <span>7 as first-author</span></p>
+  <p class="headline">Published &amp; accepted <span>28 papers</span>, including <span>7 as first-author</span></p>
   <table class="pub-table">
     <tr>
       <th>Journal / Conference</th>
@@ -19,7 +19,7 @@ toc_label: "On this page"
     </tr>
     <tr>
       <td class="venue top">IEEE Journal of Solid-State Circuits (JSSC)</td>
-      <td class="counts"><span class="fa">First-Author &times;2</span><br><span class="ca">Co-Author &times;3</span></td>
+      <td class="counts"><span class="fa">First-Author &times;2</span><br><span class="ca">Co-Author &times;4</span></td>
     </tr>
     <tr>
       <td class="venue">IEEE Trans. Circuits Syst. I (TCAS-I)</td>
@@ -86,11 +86,21 @@ toc_label: "On this page"
   *IEEE Custom Integrated Circuits Conference (CICC)*, Apr. 2023.  
   **J. Huang**, Z. Tong, Y. Lu, C.-S. Lam, R. P. Martins.
 
+### Under Review
+
+- **A Dual-Loop Multi-Inductor Hybrid DC-DC Converter with Specified Inductor Current Allocation and Fast Transient Response**.  
+  *IEEE Journal of Solid-State Circuits (JSSC)*, under review (revision submitted).  
+  **J. Huang**, X. Mao, Z. Tong, Z. Yu, W. Yang, C.-S. Lam, R. P. Martins, Y. Lu.
+
 ---
 
 ## Co-Author Papers
 
 ### Journal Articles
+
+- **An Output-Count-Scalable Shared-Ladder Hybrid Buck Converter with Cross-Current Cancellation and Adaptive SC-Frequency Control for AR-Glasses PMICs**. <span class="pub-accepted">Accepted</span>  
+  *IEEE Journal of Solid-State Circuits (JSSC)*, 2026.  
+  Z. Yu, **J. Huang**, Z. Tong, Z. Zhu, Y. Lu.
 
 - **A Bi-Directional Dual-Path Boost-Buck Hybrid Converter for High-Voltage Power Transmission Delivery Cable in Humanoid Robots**.  
   *IEEE Journal of Solid-State Circuits (JSSC)*, 2025.  
