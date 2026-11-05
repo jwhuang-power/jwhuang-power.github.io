@@ -189,6 +189,7 @@ exclude:
   - README
   - CLAUDE.md
   - WEBSITE_CONTEXT.md
+  - research_notes
   - tmp
   - vendor
 keep_files:
