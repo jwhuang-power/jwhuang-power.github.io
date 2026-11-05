@@ -13,7 +13,7 @@ redirect_from:
 
 ## Welcome to Junwei Huang's Homepage
 
-Hi! I am Junwei Huang, a Postdoctoral Researcher in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa-group.berkeley.edu/people/).
+Hi! I am Junwei Huang, a Postdoctoral Scholar in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley, advised by [Professor Robert Pilawa-Podgurski](https://pilawa-group.berkeley.edu/people/).
 
 My research focuses on **power delivery for AI and high-performance computing**, spanning **board-level voltage regulator modules (VRMs)** and **in-package integrated voltage regulators (IVRs)**, with an emphasis on co-designing the two. Specific topics include hybrid switched-capacitor/inductor DC-DC converters, high-conversion-ratio power delivery, fast transient response, vertical and chiplet power delivery, package-embedded passives, and scalable multi-module power systems.
 
@@ -76,7 +76,7 @@ From wearables to AI data centers, five silicon-proven designs address the joint
 
 ## Academic Appointments
 
-- **Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2026.10–present  
+- **Postdoctoral Scholar**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2026.10–present  
   PI: Prof. Robert Pilawa-Podgurski
 
 - **Visiting Postdoctoral Researcher**, Pilawa Power Electronics Research Group, [EECS](https://eecs.berkeley.edu/), [University of California, Berkeley](https://www.berkeley.edu/) · 2025.09–2026.10  
